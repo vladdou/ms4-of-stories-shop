@@ -19,7 +19,11 @@ body {
     width: 1.5rem;
 }
 
-.logo-font {
+.heading {
+    text-transform: uppercase;
+}
+
+.sub-headings{
     text-transform: uppercase;
 }
 
@@ -31,6 +35,16 @@ body {
     background: black;
     color: white;
     min-width: 260px;
+}
+
+.overlay{
+    height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
 
 /* -------------------------------- Media Queries */

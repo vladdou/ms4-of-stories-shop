@@ -1,4 +1,7 @@
-from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
+from django.shortcuts import (render, redirect, reverse,
+    HttpResponse, get_object_or_404)
+
+from django.contrib import messages
 
 from products.models import Product
 
@@ -22,6 +25,7 @@ def add_to_bag(request, item_id):
         bag[item_id] += quantity
     else:
         bag[item_id] = quantity
+        messages.success(request, f'Added {product.name} to your bag')
 
     request.session['bag'] = bag
     return redirect(redirect_url)
@@ -41,6 +45,7 @@ def adjust_bag(request, item_id):
 
     request.session['bag'] = bag
     return redirect(reverse('view_bag'))
+
 
 def remove_from_bag(request, item_id):
     """Remove the item from the shopping bag"""

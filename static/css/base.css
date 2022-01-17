@@ -125,6 +125,10 @@ input[name='q']::placeholder {
 	color: #17a2b8; /* text-info */
 }
 
+.shopping-bag{
+    color: #000 !important;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {

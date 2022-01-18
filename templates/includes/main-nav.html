@@ -3,8 +3,9 @@
         <a class="navbar-brand" href="{% url 'home' %}">
             <img src="media/logo.png" alt="" width="175" height="40">
         </a>
-        <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -20,14 +21,14 @@
                         Up</a>
 
                 <li class="nav-item dropdown">
-                    <a class="font-weight-bold nav-link text-black dropdown-toggle" href="#"
-                        id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="font-weight-bold nav-link text-black dropdown-toggle" href="#" id="navbarDropdown"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Account
                     </a>
                     <div class="dropdown-menu border-0" aria-labelledby="user-options">
                         {% if request.user.is_authenticated %}
                         {% if request.user.is_superuser %}
-                        <a href="" class="dropdown-item">Product Management</a>
+                        <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
                         {% endif %}
                         <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
                         <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
@@ -40,8 +41,8 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="font-weight-bold nav-link text-black mr-5 dropdown-toggle" href="#"
-                        id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="font-weight-bold nav-link text-black mr-5 dropdown-toggle" href="#" id="navbarDropdown"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Products
                     </a>
                     <div class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
@@ -53,27 +54,33 @@
                 </li>
             </ul>
 
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="form-control btn rounded-0" type="submit">
+            
+            <form class="form-inline d-flex" method="GET" action="{% url 'products' %}">
+                <input class="form-control mr-sm-2" type="text" name="q" placeholder="Search" aria-label="Search">
+                <button class="btn rounded-0" type="submit">
                     <span class="icon">
                         <i class="fas fa-search"></i>
                     </span>
                 </button>
             </form>
+            
 
-                            <a class="{% if grand_total %}text-info shopping-bag font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
-                  <div class="text-center">
+         
+
+
+            <a class="{% if grand_total %}text-info shopping-bag font-weight-bold{% else %}text-black{% endif %} nav-link"
+                href="{% url 'view_bag' %}">
+                <div class="text-center">
                     <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                     <p class="my-0">
-                      {% if grand_total %}
-                      ${{ grand_total|floatformat:2 }}
-                      {% else %}
-                      $0.00
-                      {% endif %}
+                        {% if grand_total %}
+                        ${{ grand_total|floatformat:2 }}
+                        {% else %}
+                        $0.00
+                        {% endif %}
                     </p>
-                  </div>
-                </a>
+                </div>
+            </a>
         </div>
     </div>
 </nav>

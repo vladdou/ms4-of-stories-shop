@@ -1,3 +1,5 @@
+<!-- navbar template with bootstrap navbar -->
+
 <nav class="navbar navbar-expand-lg menu">
     <div class="container-fluid">
         <a class="navbar-brand" href="{% url 'home' %}">
@@ -8,7 +10,6 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -16,34 +17,10 @@
                         Home
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-black" href="{% url 'account_signup' %}">Sign
-                        Up</a>
-
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Account
-                    </a>
-                    <div class="dropdown-menu border-0 menu" aria-labelledby="user-options">
-                        {% if request.user.is_authenticated %}
-                        {% if request.user.is_superuser %}
-                        <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
-                        {% endif %}
-                        <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-                        <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
-                        {% else %}
-                        <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                        <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
-                        {% endif %}
-                    </div>
-                </li>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link mr-5 dropdown-toggle" href="#" id="navbarDropdown"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Products
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Shop
                     </a>
                     <div class="dropdown-menu border-0 menu" aria-labelledby="navbarDropdown">
                         <a href="{% url 'products' %}?category=blankets" class="dropdown-item">Blankets</a>
@@ -51,10 +28,32 @@
                         <a href="{% url 'products' %}?category=pillows" class="dropdown-item">Pillows</a>
                         <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
                     </div>
+                    <!-- nav links showing only if user is logged in as admin -->
+                    {% if request.user.is_superuser %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'add_product' %}" class="dropdown-item">Add Products</a>
                 </li>
+                {% endif %}
+                <!-- nav links showing only if user is logged in -->
+                {% if request.user.is_authenticated %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                </li>
+                {% else %}
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'account_signup' %}">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                </li>
+                {% endif %}
             </ul>
-
-            
+        
+            <!-- search field -->
             <form class="form-inline d-flex" method="GET" action="{% url 'products' %}">
                 <input class="form-control mr-sm-2" type="text" name="q" placeholder="Search" aria-label="Search">
                 <button class="btn rounded-0" type="submit">
@@ -63,11 +62,8 @@
                     </span>
                 </button>
             </form>
-            
-
-         
-
-
+        
+            <!-- shopping cart -->
             <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
                 href="{% url 'view_bag' %}">
                 <div class="text-center shopping-bag">

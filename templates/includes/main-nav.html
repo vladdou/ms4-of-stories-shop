@@ -1,9 +1,9 @@
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg menu">
     <div class="container-fluid">
         <a class="navbar-brand" href="{% url 'home' %}">
             <img src="media/logo.png" alt="" width="175" height="40">
         </a>
-        <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse"
+        <button class="navbar-toggler navbar-light bg-light menu" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -12,20 +12,20 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="font-weight-bold nav-link text-black" href="{% url 'home' %}" id="home-link">
+                    <a class="nav-link" href="{% url 'home' %}" id="home-link">
                         Home
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="font-weight-bold nav-link text-black" href="{% url 'account_signup' %}">Sign
+                    <a class="nav-link text-black" href="{% url 'account_signup' %}">Sign
                         Up</a>
 
                 <li class="nav-item dropdown">
-                    <a class="font-weight-bold nav-link text-black dropdown-toggle" href="#" id="navbarDropdown"
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Account
                     </a>
-                    <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                    <div class="dropdown-menu border-0 menu" aria-labelledby="user-options">
                         {% if request.user.is_authenticated %}
                         {% if request.user.is_superuser %}
                         <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
@@ -41,11 +41,11 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="font-weight-bold nav-link text-black mr-5 dropdown-toggle" href="#" id="navbarDropdown"
+                    <a class="nav-link mr-5 dropdown-toggle" href="#" id="navbarDropdown"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Products
                     </a>
-                    <div class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu border-0 menu" aria-labelledby="navbarDropdown">
                         <a href="{% url 'products' %}?category=blankets" class="dropdown-item">Blankets</a>
                         <a href="{% url 'products' %}?category=baskets" class="dropdown-item">Baskets</a>
                         <a href="{% url 'products' %}?category=pillows" class="dropdown-item">Pillows</a>
@@ -68,9 +68,9 @@
          
 
 
-            <a class="{% if grand_total %}text-info shopping-bag font-weight-bold{% else %}text-black{% endif %} nav-link"
+            <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
                 href="{% url 'view_bag' %}">
-                <div class="text-center">
+                <div class="text-center shopping-bag">
                     <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                     <p class="my-0">
                         {% if grand_total %}

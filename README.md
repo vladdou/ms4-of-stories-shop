@@ -32,3 +32,4 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 ------
 -save info box does not work
 -can't search for test product
+-url not found products/add

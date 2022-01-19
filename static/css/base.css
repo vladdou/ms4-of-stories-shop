@@ -10,6 +10,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h3{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -56,9 +61,18 @@ nav ul li a {
 .main-logo-link {
     width: fit-content;
 }
+#delivery-banner {
+    background: #81665f;
+    color: white;
+}
 
+h4{
+    font-size: 14px;
+    font-weight: 200;
+    
+}
 .shop-now-button {
-    background: black;
+    background: #81665f;
     color: white;
     min-width: 260px;
 }

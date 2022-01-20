@@ -1,0 +1,1 @@
+web: gunicorn of_stories.wsgi:application

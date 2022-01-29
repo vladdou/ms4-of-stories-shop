@@ -14,10 +14,18 @@ h3{
     font-size: 18px;
     letter-spacing: 2px;
 }
+
+h4{
+    font-size: 14px;
+    font-weight: 200;  
+}
+
 .btn{
     background-color: #81665f;
     color: white;
 }
+
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -27,12 +35,11 @@ h3{
     width: 1.5rem;
 }
 
+/* -------------------------------- Navbar */
+
 nav ul li a {
 	color: black;
 }
-
-
-
 
 .menu {
 	font-family: 'Open Sans', sans-serif;
@@ -45,7 +52,6 @@ nav ul li a {
 	padding-bottom: 5px;
 
 }
-
 .menu a:hover {
 	color: #81665f;
 	background-color: transparent;
@@ -64,16 +70,12 @@ nav ul li a {
 .main-logo-link {
     width: fit-content;
 }
+
 #delivery-banner {
     background: #81665f;
     color: white;
 }
 
-h4{
-    font-size: 14px;
-    font-weight: 200;
-    
-}
 .shop-now-button {
     background: #81665f;
     color: white;
@@ -124,7 +126,7 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
-/* Allauth form formatting */
+/* ------------------------------- allauth form formatting */
 
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
@@ -194,7 +196,8 @@ input[name='q']::placeholder {
 .custom-toast {
     overflow: visible;
 }
-/* Product Form */
+
+/* ------------------------------- product form */
 
 .btn-file {
     position: relative;
@@ -221,6 +224,29 @@ input[name='q']::placeholder {
     border-color: #dc3545;
     border-radius: 0;
 }
+
+/* -------------------------------- product detail */
+
+
+.product-name{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.product-price{
+    font-size: 16px;
+}
+
+.product-description{
+    font-size: 14px;
+}
+
+.decrement-qty, .increment-qty{
+    padding: .5rem .5rem;
+    background-color: transparent;
+    color: black;
+} 
 
 /* -------------------------------- Media Queries */
 
@@ -273,3 +299,15 @@ input[name='q']::placeholder {
   .form-inline .search-field:focus {
     border-bottom:1px solid #ccc;
   }
+
+  .heading {
+      font-size: 3rem;
+  }
+
+  .nav-link {
+    padding: 0.20rem;
+}
+
+.navbar-toggler {
+    font-size: 1rem;
+}

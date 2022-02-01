@@ -41,3 +41,7 @@ it was an indentation error, as the form was nested in the GET block: when a POS
 It was pointing to line 130 as that is where the context is being passed to the template (the context variables gets passed to the template on both GET and POST request) and with the indentation error order_form had no value on POST
 
 -templatedoesnotexist - forgot Blog/blog.html
+
+
+Credits
+https://djangocentral.com/building-a-blog-application-with-django/

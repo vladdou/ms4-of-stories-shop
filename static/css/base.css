@@ -272,6 +272,34 @@ input[name='q']::placeholder {
     color: black;
 } 
 
+/* -------------------------------- footer */
+
+
+.page-footer {
+    height: 80px;
+    margin: 0;
+	background-color: white;
+    display:flex;
+}
+.social-links {
+    padding-bottom: 10px;
+    padding-top: 15px;
+  }
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color:#81665f !important;
+  }
+
+.social-links li a i:hover {
+	color: #FC6A60 !important;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -300,6 +328,8 @@ input[name='q']::placeholder {
         margin-left: 4rem;
     }
   }
+
+  
 
   /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {

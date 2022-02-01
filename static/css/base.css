@@ -41,10 +41,10 @@ nav ul li a {
 	color: black;
 }
 
-.menu {
+.menu, .shopping-bag {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
-	font-size: 14px;
+	font-size: 15px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	padding-right: 20px;
@@ -56,6 +56,12 @@ nav ul li a {
 	color: #81665f;
 	background-color: transparent;
 }
+
+.shopping-bag{
+
+}
+
+/* -------------------------------- other */
 
 .heading {
     text-transform: uppercase;
@@ -255,6 +261,7 @@ input[name='q']::placeholder {
     .container {
       max-width: 80%;
     }
+
   }
   
   /* fixed top navbar only on medium and up */
@@ -270,6 +277,10 @@ input[name='q']::placeholder {
       .header-container {
           padding-top: 80px;
       }
+
+      .shopping-bag{
+        margin-left: 4rem;
+    }
   }
 
   /* pad the top a bit when navbar is collapsed on mobile */

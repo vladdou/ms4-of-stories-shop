@@ -1,6 +1,6 @@
 from django.shortcuts import render
 #from django.views import generic
-from django.views.generic import ListView, DetailView, CreateView
+from django.views.generic import ListView, DetailView, CreateView, UpdateView
 from .models import Post
 
 
@@ -16,5 +16,11 @@ class PostDetail(DetailView):
 
 class AddPost(CreateView):
     model = Post
-    template_name = 'blog/add_blogpost.html'
+    template_name = 'blog/add_post.html'
+    fields = '__all__'
+
+
+class EditPost(UpdateView):
+    model = Post
+    template_name = 'blog/edit_post.html'
     fields = '__all__'

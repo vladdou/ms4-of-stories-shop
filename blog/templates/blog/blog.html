@@ -38,6 +38,7 @@
                     <p class="card-text">{{post.content|slice:":200" }}</p>
                     <a href="{% url 'post_detail' post.pk  %}" class="btn btn-primary">Read More &rarr;</a>
                     <a href="{% url 'edit_post' post.pk  %}" class="btn btn-primary">Edit Post</a>
+                    <a href="{% url 'delete_post' post.pk  %}" class="btn btn-primary">Delete Post</a>
                 </div>
             </div>
             {% endfor %}

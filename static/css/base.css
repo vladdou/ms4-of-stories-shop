@@ -43,7 +43,7 @@ nav ul li a {
 
 .menu, .shopping-bag {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 14px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -57,6 +57,18 @@ nav ul li a {
 	background-color: transparent;
 }
 
+.nav-search{
+    border-color: #81665f;
+	border-radius: 1.5rem;
+	height: 1.8rem;
+	width: 10rem;
+}
+
+.search-icon{
+    background-color: transparent !important;
+    color: #81665f;
+    padding: 0;
+}
 
 /* -------------------------------- other */
 
@@ -184,7 +196,7 @@ input[name='q']::placeholder {
 }
 
 .shopping-bag{
-    color: #000 !important;
+    color: #555 !important;
 }
 
 /* ------------------------------- bootstrap toasts */

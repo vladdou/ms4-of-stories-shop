@@ -30,12 +30,16 @@
                     </div>
                     <!-- nav links showing only if user is logged in as admin -->
                     {% if request.user.is_superuser %}
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'add_product' %}" class="dropdown-item">Add Products</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'add_post' %}" class="dropdown-item">Add Blogpost</a>
-                </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Admin
+                        </a>
+                        <div class="dropdown-menu border-0 menu" aria-labelledby="navbarDropdown">
+                            <a class="nav-link" href="{% url 'add_product' %}" class="dropdown-item">Add Products</a>
+                            <a class="nav-link" href="{% url 'add_post' %}" class="dropdown-item">Add Blogpost</a>
+                        </div>
+            
                 {% endif %}
                 <!-- nav links showing only if user is logged in -->
                 {% if request.user.is_authenticated %}

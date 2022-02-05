@@ -2,17 +2,11 @@
 {% load static %}
 
 
-{% block page_header %}
-<div class="container">
-    <div class="row">
-        <div class="col"></div>
-    </div>
-</div>
-{% endblock %}
+
 {% block content %}
 
 <div class="overlay"></div>
-<div class="container mb-2">
+<div class="container mb-2 header-container">
     <div class="row">
         <div class="col-md-8 col-md-10 mx-auto">
                 <h2 class="sub-heading mb-4 text-center">Stories</h2>
@@ -32,8 +26,10 @@
                     <p class="card-text text-muted h6">{{ post.author.first_name }} | {{ post.created_on}} </p>
                     <p class="card-text">{{post.content|slice:":200" }}</p>
                     <a href="{% url 'post_detail' post.pk  %}" class="btn btn-primary">Read More &rarr;</a>
+                    {% if request.user.is_superuser %}
                     <a href="{% url 'edit_post' post.pk  %}" class="btn btn-primary">Edit Post</a>
                     <a href="{% url 'delete_post' post.pk  %}" class="btn btn-primary">Delete Post</a>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}

@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
+    <div class="container">
         <div class="row">
             <div class="col"></div>
         </div>
@@ -10,15 +10,15 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
+    <div class="container-fluid h-100 header-container">
         <div class="row h-100">
             <div class="col-7 col-md-6 my-auto">
             
-                <h1 class="display-4 heading text-black">
+                <h1 class="display-4 heading text-center">
                     Peru Collection
                 </h1>
                 <hr>
-                <h3 class="text-center">9° 11' 42" S / 74° 59' 25" W</h4>
+                <h3 class="text-center"></h4>
                 <div class="my-5 text-center">
                     <h4>
                         <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>

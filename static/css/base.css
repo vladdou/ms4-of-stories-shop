@@ -3,8 +3,6 @@ html {
 }
 
 body {
-    background: url('/media/homepage-background.jpg') no-repeat center center fixed;
-    background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Open Sans', sans-serif;
@@ -70,6 +68,23 @@ nav ul li a {
     padding: 0;
 }
 
+/* -------------------------------- home page */
+.header-container{
+    background: url('/media/homepage-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.basket-container{
+    background: url('/media/traditional-fine-weave-baskets.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.pillow-container{
+    background: url('/media/mali-mudcloth-pillows.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    
+}
 /* -------------------------------- other */
 
 .heading {
@@ -286,13 +301,17 @@ input[name='q']::placeholder {
 
 /* -------------------------------- footer */
 
-
+/*https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
 .page-footer {
     height: 80px;
-    margin: 0;
-	background-color: white;
-    display:flex;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
 }
+
 .social-links {
     padding-bottom: 10px;
     padding-top: 15px;

@@ -25,10 +25,10 @@
                     <h2 class="card-title"><a href="{% url 'post_detail' post.pk  %}">{{ post.title }}</a></h2>
                     <p class="card-text text-muted h6">{{ post.author.first_name }} | {{ post.created_on}} </p>
                     <p class="card-text">{{post.content|slice:":200" }}</p>
-                    <a href="{% url 'post_detail' post.pk  %}" class="btn btn-primary">Read More &rarr;</a>
+                    <a href="{% url 'post_detail' post.pk  %}" class="btn btn-blog">Read More <i class="fas fa-angle-double-right"></i> </a>
                     {% if request.user.is_superuser %}
-                    <a href="{% url 'edit_post' post.pk  %}" class="btn btn-primary">Edit Post</a>
-                    <a href="{% url 'delete_post' post.pk  %}" class="btn btn-primary">Delete Post</a>
+                    <a href="{% url 'edit_post' post.pk  %}" class="btn btn-blog">Edit Post</a>
+                    <a href="{% url 'delete_post' post.pk  %}" class="btn btn-blog">Delete Post</a>
                     {% endif %}
                 </div>
             </div>

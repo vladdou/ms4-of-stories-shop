@@ -36,6 +36,10 @@ a {
     text-transform: uppercase;
 }
 
+.padding-row {
+    padding-bottom: 30px;
+}
+
 
 /* from Bulma */
 .icon {

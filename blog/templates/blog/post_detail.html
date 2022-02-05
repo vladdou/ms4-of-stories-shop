@@ -8,13 +8,15 @@
     <div class="col-md-8 card mb-4  mt-3 left top">
       <div class="card-body">
         <h2>{% block title %} {{ object.title }} {% endblock title %}</h2>
+        {% if request.user.is_superuser %}
+        <small>
+          <a href="{% url 'edit_post' post.pk  %}">Edit Post</a> |
+          <a class="text-danger" href="{% url 'delete_post' post.pk  %}">Delete Post</a>
+      </small>
+        {% endif %}
         <p class=" text-muted">{{ post.author.first_name }} | {{ post.created_on }}</p>
         <p class="card-text ">{{ object.content | safe }}</p>
         <a href="{% url 'blog' %}" class="btn btn-blog"><i class="fas fa-angle-double-left"></i> Back to blogposts</a>
-        {% if request.user.is_superuser %}
-        <a href="{% url 'edit_post' post.pk %}" class="btn btn-blog">Edit Post <i class="fas fa-angle-double-right"></i></a>
-        <a href="{% url 'delete_post' post.pk  %}" class="btn btn-blog">Delete Post <i class="fas fa-angle-double-right"></i></a>
-        {% endif %}
       </div>
     </div>
   </div>

@@ -3,6 +3,8 @@ html {
 }
 
 body {
+    background: url('/media/homepage-background.jpg') no-repeat center center fixed;
+    background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Open Sans', sans-serif;
@@ -69,22 +71,7 @@ nav ul li a {
 }
 
 /* -------------------------------- home page */
-.header-container{
-    background: url('/media/homepage-background.jpg') no-repeat center center fixed;
-    background-size: cover;
-}
-.basket-container{
-    background: url('/media/traditional-fine-weave-baskets.png') no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-}
 
-.pillow-container{
-    background: url('/media/mali-mudcloth-pillows.png') no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    
-}
 /* -------------------------------- other */
 
 .heading {
@@ -228,13 +215,7 @@ input[name='q']::placeholder {
 }
 /* ------------------------------- blog */
 
-.card {
-    box-shadow: 0 16px 48px #E3E7EB;
-}
 
-.shadow {
-    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
-}
 .btn-danger {
     color: #fff;
     background-color: #f00000;
@@ -305,11 +286,9 @@ input[name='q']::placeholder {
 .page-footer {
     height: 80px;
     position: relative;
-    left: 0;
     bottom: 0;
     width: 100%;
     background-color: white;
-    text-align: center;
 }
 
 .social-links {

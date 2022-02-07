@@ -63,7 +63,7 @@ nav ul li a {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	padding-right: 20px;
-	padding-top: 5px;
+	padding-top: 30px;
 	padding-bottom: 5px;
 
 }
@@ -363,7 +363,7 @@ a.btn.btn-blog:hover {
       }
   
       .header-container {
-          padding-top: 60px;
+          padding-top: 100px;
       }
 
       .shopping-bag{

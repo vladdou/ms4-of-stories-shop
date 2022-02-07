@@ -5,9 +5,12 @@ html {
 body {
     background: url('/media/homepage-background.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
     color: #555;
     font-family: 'Open Sans', sans-serif;
+    margin:0;
+    padding:0;
+    height:100%;
+    position: relative;
 }
 
 h2{
@@ -63,7 +66,7 @@ nav ul li a {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	padding-right: 20px;
-	padding-top: 30px;
+	padding-top: 10px;
 	padding-bottom: 5px;
 
 }

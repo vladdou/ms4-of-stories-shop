@@ -2,7 +2,7 @@
 
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     
 {% block meta %}
     <!-- Required meta tags -->
@@ -43,21 +43,17 @@
 {% endblock %}
 
     <title>Of Stories {% block extra_title %}{% endblock %}</title>
-  </head>
-  <body>
-
-
-
-    <div id="delivery-banner" class="row text-center">
-        <div class="col">
-            <h4 class="my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>                
-        </div>            
-    </div>
-
+</head>
   
+<body>
+
+<div id="delivery-banner" class="row text-center">
+    <div class="col">
+        <h4 class="my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>                
+    </div>            
+</div>
     
 <!-- Including the navbar in template -->
-
 {% include 'includes/main-nav.html' %}
      
 
@@ -79,6 +75,7 @@
         </div>
     {% endif %}
 
+
     {% block page_header %}
     {% endblock %}
 
@@ -86,12 +83,9 @@
     {% endblock %}
 
   <!-- Including footer -->
-
   {% include 'includes/footer.html' %}
 
     {% block postloadjs %}
-
-    
     <script type="text/javascript">
         $('.toast').toast('show');
       </script>

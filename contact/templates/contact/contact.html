@@ -16,7 +16,7 @@
 
 <div class="container">
     <div class="row padding-row">
-        <div class="col-md-8 mt-3">
+        <div class="col-md-8 col-md-6 mx-auto">
             <!-- Contact form -->
             <form class="contact-form" action="{% url 'contact' %}" method="POST">
                 {% csrf_token %}
@@ -25,7 +25,7 @@
                 
                 <p>* = Required field</p>
                 <div class="col-12">
-                    <button type="submit" class="btn">Send Message</button>
+                    <button type="submit" class="btn rounded-0">Send Message</button>
                 </div>
             </form>
         </div>

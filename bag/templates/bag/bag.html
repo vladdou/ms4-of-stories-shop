@@ -93,13 +93,15 @@
                         </table>
                     </div>
                 {% else %}
-                    <p class="lead mb-5">Your bag is empty.</p>
-                    <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                <div class="text-center">
+                    <h4 class="mb-3 mt-5">You don't have anything in your bag yet!</h4>
+                    <a href="{% url 'products' %}" class="btn rounded-0">
                         <span class="icon">
                             <i class="fas fa-chevron-left"></i>
                         </span>
                         <span class="text-uppercase">Keep Shopping</span>
                     </a>
+                </div>
                 {% endif %}
             </div>
         </div>

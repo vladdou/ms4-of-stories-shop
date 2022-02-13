@@ -31,7 +31,7 @@
                     {% endif %}
                     <p class="card-text text-muted h6">{{ post.author.first_name }} | {{ post.created_on}} </p>
                     <p class="card-text">{{post.content|slice:":200" }}</p>
-                    <a href="{% url 'post_detail' post.pk  %}" class="btn btn-blog">Read More <i class="fas fa-angle-double-right"></i> </a>
+                    <a href="{% url 'post_detail' post.pk  %}" class="btn btn-blog border-0">Read More <i class="fas fa-angle-double-right"></i> </a>
                     
                 </div>
             </div>

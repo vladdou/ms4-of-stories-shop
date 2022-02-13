@@ -28,6 +28,8 @@ h4{
     font-weight: 200;  
 }
 
+
+
 a {
     color: #555;
 }
@@ -59,6 +61,11 @@ a {
 }
 
 /* -------------------------------- Navbar */
+
+#delivery-banner {
+    background: #939891;
+    color: white;
+}
 
 nav ul li a {
 	color: black;
@@ -100,6 +107,10 @@ nav ul li a {
     height:100vh;
 }
 
+.heading {
+    text-transform: uppercase;
+}
+
 /*https://www.sliderrevolution.com/resources/css-button-hover-effects/*/
 .shop-now-button {
     min-width: 260px;
@@ -121,8 +132,7 @@ nav ul li a {
 .shop-now-button:hover {
     color: #001F3F;
     background-color: #fff;
-  
-   
+    border: 2px solid black;
 }
 
 .card-img{
@@ -147,17 +157,13 @@ nav ul li a {
 }
 
 .image-button:hover {
-    color: #001F3F;
+    color: #637867;
     background-color: #fff;
-  
-   
 }
 
 /* -------------------------------- other */
 
-.heading {
-    text-transform: uppercase;
-}
+
 
 .sub-heading{
     text-transform: uppercase;
@@ -169,10 +175,7 @@ nav ul li a {
     width: fit-content;
 }
 
-#delivery-banner {
-    background: #939891;
-    color: white;
-}
+
 
 
 
@@ -273,6 +276,14 @@ input[name='q']::placeholder {
 
 .allauth-form-inner-content a {
 	/* text-info */
+    text-decoration:none;
+    
+}
+.allauth-form-inner-content a:hover {
+	/* text-info */
+    text-decoration:none;
+    color: #637867;
+    
 }
 
 .shopping-bag{

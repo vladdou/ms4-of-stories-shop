@@ -283,6 +283,7 @@ input[name='q']::placeholder {
 	/* text-info */
     text-decoration:none;
     color: #637867;
+    text-transform: uppercase;
     
 }
 
@@ -374,9 +375,10 @@ a.btn.btn-blog:hover {
 }
 
 .decrement-qty, .increment-qty{
-    padding: .5rem .5rem;
+    padding: .3rem .5rem;
     background-color: transparent;
     color: black;
+   
 } 
 
 /* -------------------------------- footer */

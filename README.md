@@ -4,7 +4,7 @@
 
 ![mockup image](static/images/README/mockup.png)  
 
-This site is a webshop for Of Stories that sells collections of handmade goods for your home. Users can choose to view all products or filter them by category.  
+This is a webshop for my own brand Of Stories that sells collections of handmade goods for your home.   
 
 ---  
 
@@ -18,11 +18,10 @@ This site is a webshop for Of Stories that sells collections of handmade goods f
 - Make it easy for users to navigate the site on any device   
 
 ### User Stories  
-
+![user stories](static/README/user_stories/user-stories-MS4.png)
 
 ### Design   
 
- 
 ![color palette](static/images/README/.png) 
 
 #### Colors  
@@ -35,7 +34,7 @@ This site is a webshop for Of Stories that sells collections of handmade goods f
 
 ### Wireframes  
 
-Wireframes can be viewed [here](static/images/README/wireframes/wireframes.pdf)  
+Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)  
 
 ---
 
@@ -218,21 +217,4 @@ https://djangocentral.com/building-a-blog-application-with-django/
 ## Acknowledgements
 
 
-------
--save info box does not work
--can't search for test product
--url not found products/add
--media files not showing on deployed site
-
--local variable 'order_form' referenced before assignment
-solution: You had the else block that rendered the form within the block of code that run only on GET requests, I have corrected the indentation.
-it was an indentation error, as the form was nested in the GET block: when a POST request is made to the view it cannot find the form as value is only assigned upon a GET request.
-It was pointing to line 130 as that is where the context is being passed to the template (the context variables gets passed to the template on both GET and POST request) and with the indentation error order_form had no value on POST
-
--templatedoesnotexist - forgot *Blog*/blog.html
-
--When I wanted to reach a add_blog page I got: Page not found , 404 error
-Moved url above the other.
-It is most likely Django tried the patterns in order and found a "match" before the intended
--New error when I tried to add a blogpost:
 

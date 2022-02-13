@@ -4,6 +4,8 @@ from django.views.generic import (
 from django.urls import reverse_lazy
 from .models import Post
 
+# code credits: https://djangocentral.com/building-a-blog-application-with-django/ 
+# & https://www.youtube.com/watch?v=B40bteAMM_M
 
 class PostList(ListView):
     queryset = Post.objects.filter(status=1).order_by('-created_on')

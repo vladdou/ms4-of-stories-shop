@@ -9,8 +9,8 @@
 <div class="container mb-2 header-container">
     <div class="row">
         <div class="col-md-8 col-md-10 mx-auto">
-                <h2 class="sub-heading mb-4 text-center">Stories</h2>
-                <p class="text-center">Write something here &nbsp</p>
+                <h2 class="sub-heading mb-4 text-center">Blog</h2>
+            
         </div>
     </div>
 </div>
@@ -29,7 +29,7 @@
                         <a class="text-danger" href="{% url 'delete_post' post.pk  %}">Delete Post</a>
                     </small>
                     {% endif %}
-                    <p class="card-text text-muted h6">{{ post.author.first_name }} | {{ post.created_on}} </p>
+                    <p class="card-text text-muted h6"> {{ post.created_on}} </p>
                     <p class="card-text">{{post.content|slice:":200" }}</p>
                     <a href="{% url 'post_detail' post.pk  %}" class="btn btn-blog border-0">Read More <i class="fas fa-angle-double-right"></i> </a>
                     

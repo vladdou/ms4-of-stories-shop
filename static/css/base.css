@@ -20,7 +20,8 @@ h2{
 
 h3{
     font-size: 18px;
-    letter-spacing: 2px;
+    letter-spacing: 6px;
+    font-weight: 200;
 }
 
 h4{
@@ -289,6 +290,12 @@ input[name='q']::placeholder {
 
 .shopping-bag{
     color: #555 !important;
+}
+
+.contact-form{
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0;
 }
 
 /* ------------------------------- bootstrap toasts */

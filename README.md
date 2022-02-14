@@ -2,7 +2,7 @@
 
 [A live version of the page can be viewed here](https://of-stories.herokuapp.com/home)  
 
-![mockup image](static/images/README/mockup.png)  
+
 
 This is a webshop for my own brand Of Stories that sells collections of handmade goods for your home.   
 
@@ -22,7 +22,7 @@ This is a webshop for my own brand Of Stories that sells collections of handmade
 
 ### Design   
 
-![color palette](static/images/README/.png) 
+
 
 #### Colors  
 
@@ -75,10 +75,6 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
 
 ### Features Left To Implement  
 
-
-- The possibility for users to delete their own account
- 
-
 ---
 
 ## Database   
@@ -116,10 +112,10 @@ Diagram of my database:
 - [dbdiagarm](https://dbdiagram.io/home) - used to create database diagram 
 - [Am I Responsive](http://ami.responsivedesign.is/#) - used to create the mockup image in the beginning of this README file.
 - [AWS S3 Bucket](https://aws.amazon.com/) - was used for storing static and media files
-- [W3C Markup Validation Service](https://validator.w3.org) - used to check the HTML pages
-- [W3C CSS Markup Validation Service](https://jigsaw.w3.org/css-validator/) - used to check the CSS file
-- [JSHint](https://jshint.com) - used to check the script.js file
-- [PEP8 online](http://pep8online.com) - used to check the app.py file  
+- [W3C Markup Validation Service](https://validator.w3.org) - used to validating the HTML code
+- [W3C CSS Markup Validation Service](https://jigsaw.w3.org/css-validator/) - used to validating the CSS code
+- [JSHint](https://jshint.com) - used to validating javascript code
+- [PEP8 online](http://pep8online.com) - used to validating python code
 
 ---
 

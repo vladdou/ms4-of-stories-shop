@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class Contact(models.Model):
+class ContactEmail(models.Model):
     """
     Creates Contact table in database
     """

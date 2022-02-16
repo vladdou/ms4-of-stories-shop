@@ -1,11 +1,11 @@
 from django import forms
-from .models import Contact
+from .models import ContactEmail
 
 
 class ContactForm(forms.ModelForm):
     """ Creates Contact table in database """
     class Meta:
-        model = Contact
+        model = ContactEmail
         fields = ['email_address', 'name', 'message']
         
 

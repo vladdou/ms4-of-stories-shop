@@ -17,6 +17,7 @@ var style = {
         iconColor: '#dc3545'
     }
 };
+//code credits for removing zip code from card: https://stackoverflow.com/questions/46863072/do-not-collect-zip-code-with-stripe
 var card = elements.create('card', {hidePostalCode: true, style: style});
 card.mount('#card-element');
 

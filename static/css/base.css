@@ -295,6 +295,9 @@ input[name='q']::placeholder {
 .contact-form{
     font-size: 1rem;
     line-height: 1.5;
+}
+
+.form-control{
     border-radius: 0;
 }
 

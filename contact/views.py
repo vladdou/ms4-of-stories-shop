@@ -19,7 +19,8 @@ def contact(request):
             email_address = contact_form.cleaned_data['email_address']
             name = contact_form.cleaned_data['name']
             message = contact_form.cleaned_data['message']
-
+            contact_form.save()
+    
             try:
                 send_mail(
                     f'Message from {name}', 
@@ -36,7 +37,7 @@ def contact(request):
 
             except BadHeaderError:
                 return HttpResponse('Invalid header found')
-
+        
         else:
             messages.error(request, 'Your email could not be sent.\
                     Please check if the contact form is valid')
@@ -44,19 +45,14 @@ def contact(request):
 
     else:
         if request.user.is_authenticated:
-            email_address = request.user.email
             contact_form = ContactForm(
                 initial={'email_address': request.user.email}
             )
         else:
             contact_form = ContactForm()
-
+        
     context = {
             'contact_form': contact_form,
             }
 
     return render(request, 'contact/contact.html', context)
-
-
-
-

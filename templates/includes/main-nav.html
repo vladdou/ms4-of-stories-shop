@@ -30,7 +30,7 @@
                         <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
                     </div>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'blog' %}" class="dropdown-item">Stories</a>
+                        <a class="nav-link" href="{% url 'blog' %}" class="dropdown-item">Blog</a>
                     </li>
                     <!-- nav links showing only if user is logged in as admin -->
                     {% if request.user.is_superuser %}

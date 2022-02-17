@@ -1,6 +1,6 @@
 # Of Stories Webshop  
 
-[A live version of the page can be viewed here](https://of-stories.herokuapp.com/home)  
+[A live version of the page can be viewed here](https://of-stories.herokuapp.com/)  
 
 
 

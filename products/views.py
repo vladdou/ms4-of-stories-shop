@@ -73,6 +73,7 @@ def product_detail(request, product_id):
 
     return render(request, 'products/product_detail.html', context)
 
+
 @login_required
 def add_product(request):
     """ Add a product to the store """
@@ -91,7 +92,7 @@ def add_product(request):
                 request, 'Failed to add product. Please ensure the form is valid.')
     else:
         form = ProductForm()
- 
+
     template = 'products/add_product.html'
     context = {
         'form': form,

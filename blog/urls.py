@@ -1,5 +1,4 @@
 from django.urls import path
-# from . import views
 from .views import PostList, PostDetail, AddPost, EditPost, DeletePost
 
 

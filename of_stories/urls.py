@@ -29,3 +29,7 @@ urlpatterns = [
     path('blog/', include('blog.urls')),
     path('contact/', include('contact.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+# Custom error pages
+handler404 = 'of_stories.views.handler404'
+handler500 = 'of_stories.views.handler500'

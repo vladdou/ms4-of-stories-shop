@@ -297,9 +297,7 @@ input[name='q']::placeholder {
     line-height: 1.5;
 }
 
-.form-control{
-    border-radius: 0;
-}
+
 
 /* ------------------------------- bootstrap toasts */
 

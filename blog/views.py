@@ -9,6 +9,7 @@ from .models import Post
 
 class PostList(ListView):
     queryset = Post.objects.filter(status=1).order_by('-created_on')
+    model = Post
     template_name = 'blog/blog.html'
 
 

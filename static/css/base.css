@@ -393,9 +393,6 @@ a.btn.btn-blog:hover {
 
 /*https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
 .page-footer {
-    
-    bottom: 0;
-    width: 100%;
     background-color: white;
 }
 

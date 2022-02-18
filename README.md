@@ -25,14 +25,13 @@ This is a webshop for my own brand Of Stories that sells collections of handmade
 ### Design   
 I wanted the site to be easy navigated with a clean and minimalistic design. The focus should be on the images of the products.
 
-
-
  #### Colors  
-Beyond white for the navbar and footer and a darker grey #555 for the body text I wanted to have a main color that was calming for the eye and that was representing nature and sustainability. I choose two different shades of green that I thought fit this purpose perfectly, #637867 & #939891. #F2F1EF was picked from the background of the hero image on the index page and used as an overlay to tie the pages together. 
+Beyond white for the navbar and footer and a darker grey #555 for the body text I wanted to have a main color that was calming for the eye and that was representing nature and sustainability. I choose two different shades of green that I thought fit this purpose perfectly, #637867 & #939891. #F2F1EF was picked from the hero image on the index page and used as an  background overlay to tie the pages together. 
 
 ![color palette](static/README/images/color-palette.png)
 
  #### Typography
+ The font used for this website is Open Sans from [Google Fonts](https://fonts.google.com/specimen/Open+Sans?query=open+sans)
  
 
 ### Wireframes  
@@ -47,23 +46,35 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
 - **Navbar**   
     Each page features a responsive Bootstrap navbar that’s collapsed to a burger icon when viewing on smaller screens. The navbar has a hover effect so when the user hovers over the different pages the text changes color. In the left corner there is a logo with a link that takes you to the landing page.
     - Users that are not logged in have the following pages in the navbar:
-        - HOME
-        - SHOP
-        - STORIES
+        - SHOP 
+            - BLANKETS
+            - BASKETS
+            - PILLOWS
+            - ALL PRODUCTS
+        - BLOG
         - SIGN UP
         - LOG IN
         - CONTACT  
     - Users that are logged in have the following pages in the navbar:
-        - HOME
         - SHOP
-        - STORIES
+            - BLANKETS
+            - BASKETS
+            - PILLOWS
+            - ALL PRODUCTS
+        - BLOG
         - MY PROFILE
         - LOG OUT  
     - Admin that are logged in have the following pages in the navbar:
         - HOME
         - SHOP
-        - STORIES
-        - ADMIN - ADD PRODUCT - ADD BLOGPOST
+            - BLANKETS
+            - BASKETS
+            - PILLOWS
+            - ALL PRODUCTS
+        - BLOG
+        - ADMIN 
+            - ADD PRODUCTS 
+            - ADD BLOGPOST
         - MY PROFILE
         - LOG OUT  
 
@@ -73,7 +84,14 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
 - **Home**  
     The landing page features a background image with a call to action button with the text *shop now* that leads to the page with all the products so that users have an easy and quick way of finding it.
 
+- **Shop**
+    The user can choose to navigate to all products or to view the products by category. The products page features images of the products followed by name, price, category and rating. The user have the possibility to sort products by price, rating, name and category in either descending or ascending order.
 
+- **Detailed product page**
+    The detailed page of the product features an image of the product that enhances in a new window when you click on it. The user also finds the name, price, category, rating and information about the product, along with an input for choosing the amount of products to add to the bag. Clicking on Add to bag button will trigger a sucess message with feedback of the action. For the Admin there is also an edit and a delete link that takes the admin to an edit form for that product, or to a confirmation page for deleting the product.
+
+- **Edit product page**
+    This page is only available for the Admin. It contains a form to edit Category, Sku, Name, Description, Price, Rating and Image. The 'update product' button then add the products new information to the database. The 'cancel' button leads back to the all products page.
 
 
 ### Features Left To Implement  

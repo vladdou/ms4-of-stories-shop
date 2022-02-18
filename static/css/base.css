@@ -307,6 +307,16 @@ input[name='q']::placeholder {
 .custom-toast {
     overflow: visible;
 }
+
+.toast-header {
+    text-transform: uppercase;
+    color: #637867;
+}
+
+.toast-body{
+    letter-spacing: 1px;
+
+}
 /* ------------------------------- blog */
 
 

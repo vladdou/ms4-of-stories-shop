@@ -395,6 +395,29 @@ a.btn.btn-blog:hover {
    
 } 
 
+/* code credit, LRNCE website: https://lrnce.com/shop/ceramics/vases/laurel-7/ */
+
+.block-infos {
+    width: 100%;
+    display: inline-block;
+}
+
+.block-infos .block-info {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.block-infos .block-info span {
+    display: block;
+    line-height: 19px;
+}
+
+.block-infos .block-info .fa {
+    font-size: 30px;
+    color: #555;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+}
 /* -------------------------------- footer */
 
 /*https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/

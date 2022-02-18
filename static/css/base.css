@@ -131,7 +131,7 @@ nav ul li a {
 }
 
 .shop-now-button:hover {
-    color: #001F3F;
+    color: #637867;
     background-color: #fff;
     border: 2px solid black;
 }
@@ -200,11 +200,6 @@ nav ul li a {
 	z-index: -1;
 }
 
-/*har ej denna mer*/
-a.category-badge > span.badge:hover {
-    background: #212529 !important;
-    color: #fff !important;
-}
 
 .btt-button {
     height: 42px;
@@ -221,14 +216,14 @@ a.category-badge > span.badge:hover {
 }
 
 input[name='q']::placeholder {
-    color: #aab7c4;
+    color: #939891;
 }
 
 /* ------------------------------- allauth form formatting */
 
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
-    color: #6c757d; /* text-secondary */
+    color: #637867; /* text-secondary */
 }
 
 .allauth-form-inner-content input {
@@ -241,7 +236,7 @@ input[name='q']::placeholder {
 }
 
 .allauth-form-inner-content input::placeholder {
-    color: #aab7c4;
+    color: #939891;
 }
 
 .allauth-form-inner-content button,

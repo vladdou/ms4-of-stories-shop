@@ -4,7 +4,7 @@
 
 
 
-This is a webshop for my own brand Of Stories that sells collections of handmade goods for your home.   
+This is a webshop for my own brand Of Stories that sells collections of handmade goods for your home. The sites purpose is t
 
 ---  
 
@@ -12,24 +12,27 @@ This is a webshop for my own brand Of Stories that sells collections of handmade
 
 ### The Goals For This Website Is To:  
 
-- Give users the possibility to find small collections with handmade items for their home
-- Be able to create an account for a smooth and easy shopping experience
+- Give users the possibility to find unique collections of handmade items for their home
+- Support small businesses 
 - Share stories about the company and their products through the blog
+
 - Make it easy for users to navigate the site on any device   
+- Be able to create an account for a smooth and easy shopping experience
 
 ### User Stories  
 ![user stories](static/README/user_stories/user-stories-MS4.png)
 
 ### Design   
+I wanted the site to be easy navigated with a clean and minimalistic design. The focus should be on the images of the products.
 
 
 
-#### Colors  
+ #### Colors  
+Beyond white for the navbar and footer and a darker grey #555 for the body text I wanted to have a main color that was calming for the eye and that was representing nature and sustainability. I choose two different shades of green that I thought fit this purpose perfectly, #637867 & #939891. #F2F1EF was picked from the background of the hero image on the index page and used as an overlay to tie the pages together. 
 
+![color palette](static/README/images/color-palette.png)
 
-![color palette](static/images/README/color-palette.png)
-
-#### Typography
+ #### Typography
  
 
 ### Wireframes  

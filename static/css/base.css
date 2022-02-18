@@ -68,10 +68,6 @@ a {
     color: white;
 }
 
-nav ul li a {
-	color: black;
-}
-
 .menu, .shopping-bag {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
@@ -82,10 +78,6 @@ nav ul li a {
 	padding-top: 10px;
 	padding-bottom: 5px;
 
-}
-.menu a:hover {
-	color: #637867;
-	background-color: transparent;
 }
 
 .nav-search{
@@ -99,6 +91,13 @@ nav ul li a {
     background-color: transparent !important;
     color: #637867;
     padding: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #555;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #637867;
 }
 
 /* -------------------------------- home page */
@@ -223,7 +222,7 @@ input[name='q']::placeholder {
 
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
-    color: #637867; /* text-secondary */
+    color: #555; /* text-secondary */
 }
 
 .allauth-form-inner-content input {
@@ -273,6 +272,8 @@ input[name='q']::placeholder {
 .allauth-form-inner-content a {
 	/* text-info */
     text-decoration:none;
+    color: #939891;
+
     
 }
 .allauth-form-inner-content a:hover {

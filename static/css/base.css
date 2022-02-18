@@ -373,6 +373,10 @@ a.btn.btn-blog:hover {
 
 /* -------------------------------- product detail */
 
+.breadcrumb{
+    background-color: transparent;
+    font-size: 14px;
+}
 
 .product-name{
     font-size: 16px;

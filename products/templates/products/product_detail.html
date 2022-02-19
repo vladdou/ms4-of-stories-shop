@@ -9,7 +9,7 @@
     <!--Breadcrumb-->
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'products' %}">All Products</a></li>
             <li class="breadcrumb-item"><a
                     href="{% url 'products' %}?category={{ product.category.name }}">{{ product.category.friendly_name }}</a>
             </li>
@@ -92,16 +92,16 @@
                         <!--code credit, LRNCE website: https://lrnce.com/shop/ceramics/vases/laurel-7/ -->
                         <div class="block-infos">
                             <div class="block-info globe">
-                                <i class="fas fa-globe-americas" aria-hidden="true"></i>
-                                <span>Shipping <br>worldwide</span>
+                                <i class="fa fa-globe-americas" aria-hidden="true"></i>
+                                <span class="block-info-text">Shipping <br>worldwide</span>
                             </div>
                             <div class="block-info undo">
                                 <i class="fa fa-undo" aria-hidden="true"></i>
-                                <span>14 days<br> returns</span>
+                                <span class="block-info-text">14 days<br> returns</span>
                             </div>
                             <div class="block-info scure">
                                 <i class="fa fa-lock" aria-hidden="true"></i>
-                                <span>100% secure <br>payment</span>
+                                <span class="block-info-text">100% secure <br>payment</span>
                             </div>
                         </div>
                     </div>

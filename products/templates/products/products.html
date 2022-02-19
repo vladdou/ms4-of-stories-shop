@@ -6,8 +6,7 @@
 <div class="overlay-white"></div>
 <div class="container-fluid header-container">
     <div class="row">
-        <div class="col text-center mt-3">
-
+        <div class="col text-center">
             {% for c in current_categories %}
             <h2 class="sub-heading" href="{% url 'products' %}?category={{ c.name }}">{{ c.friendly_name }}</h2>
             {% endfor %}

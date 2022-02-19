@@ -378,6 +378,11 @@ a.btn.btn-blog:hover {
     font-size: 14px;
 }
 
+.breadcrumb-item a:hover{
+    text-decoration:none;
+    color: #637867;
+}
+
 .product-name{
     font-size: 16px;
     font-weight: 400;
@@ -420,8 +425,18 @@ a.btn.btn-blog:hover {
     font-size: 30px;
     color: #555;
     display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
+    font: normal normal normal 18px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+  
 }
+.block-info-text{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
 /* -------------------------------- footer */
 
 /*https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/

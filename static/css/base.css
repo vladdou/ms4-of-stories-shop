@@ -29,7 +29,7 @@ h4{
     font-weight: 200;  
 }
 
-
+/* -------------------------------- general */
 
 a {
     color: #555;
@@ -47,10 +47,35 @@ a {
     border-color: #637867;
 }
 
+.sub-heading{
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
 .padding-row {
     padding-bottom: 30px;
 }
 
+.overlay{
+    height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: #F2F1EF;
+	z-index: -1;
+}
+
+.overlay-white{
+    height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
+}
 
 /* from Bulma */
 .icon {
@@ -77,7 +102,6 @@ a {
 	padding-right: 20px;
 	padding-top: 10px;
 	padding-bottom: 5px;
-
 }
 
 .nav-search{
@@ -92,6 +116,11 @@ a {
     color: #637867;
     padding: 0;
 }
+
+.shopping-bag{
+    color: #555 !important;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #555;
 }
@@ -101,6 +130,7 @@ a {
 }
 
 /* -------------------------------- home page */
+
 .index-hero{
     background: url('/media/homepage-background.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -111,7 +141,6 @@ a {
     text-transform: uppercase;
 }
 
-/*https://www.sliderrevolution.com/resources/css-button-hover-effects/*/
 .shop-now-button {
     min-width: 260px;
     transition: all .5s ease;
@@ -125,14 +154,17 @@ a {
     background-color: transparent;
     padding: 10px;
     outline: none;
-    border-radius: 4px;
-
+    border-radius: 4px;  
 }
 
+/* code credit: https://www.codespot.org/css-hover-effects/ */
 .shop-now-button:hover {
     color: #637867;
     background-color: #fff;
     border: 2px solid black;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .card-img{
@@ -161,44 +193,7 @@ a {
     background-color: #fff;
 }
 
-/* -------------------------------- other */
-
-
-
-.sub-heading{
-    text-transform: uppercase;
-    font-size: 24px;
-    letter-spacing: 2px;
-}
-
-.main-logo-link {
-    width: fit-content;
-}
-
-
-
-
-
-.overlay{
-    height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: #F2F1EF;
-	z-index: -1;
-}
-
-.overlay-white{
-    height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: white;
-	z-index: -1;
-}
-
+/* -------------------------------- bag */
 
 .btt-button {
     height: 42px;
@@ -284,17 +279,6 @@ input[name='q']::placeholder {
     
 }
 
-.shopping-bag{
-    color: #555 !important;
-}
-
-.contact-form{
-    font-size: 1rem;
-    line-height: 1.5;
-}
-
-
-
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
@@ -315,10 +299,16 @@ input[name='q']::placeholder {
 
 .toast-body{
     letter-spacing: 1px;
-
 }
-/* ------------------------------- blog */
 
+/* ------------------------------- contact */
+
+.contact-form{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* ------------------------------- blog */
 
 .btn-danger {
     color: #fff;
@@ -343,6 +333,7 @@ a.btn.btn-blog:hover {
 	color: #637867;
     text-decoration: none;
 }
+
 /* ------------------------------- product form */
 
 .btn-file {
@@ -401,11 +392,9 @@ a.btn.btn-blog:hover {
     padding: .3rem .5rem;
     background-color: transparent;
     color: black;
-   
 } 
 
-/* code credit, LRNCE website: https://lrnce.com/shop/ceramics/vases/laurel-7/ */
-
+/* code credit for block infos, LRNCE website: https://lrnce.com/shop/ceramics/vases/laurel-7/ */
 .block-infos {
     width: 100%;
     display: inline-block;
@@ -428,8 +417,8 @@ a.btn.btn-blog:hover {
     font: normal normal normal 18px/1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;
-  
 }
+
 .block-info-text{
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
@@ -439,7 +428,6 @@ a.btn.btn-blog:hover {
 
 /* -------------------------------- footer */
 
-/*https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
 .page-footer {
     background-color: white;
 }
@@ -491,8 +479,6 @@ a.btn.btn-blog:hover {
         margin-left: 4rem;
     }
   }
-
-  
 
   /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {

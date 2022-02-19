@@ -18,7 +18,7 @@
     <div class="row padding-row">
         <div class="col-md-8 mx-auto">
             <!-- Contact form -->
-            <form class="contact-form" action="{% url 'contact' %}" method="POST">
+            <form class="contact-form border-0" action="{% url 'contact' %}" method="POST">
                 {% csrf_token %}
                 
                 {{contact_form|crispy}}

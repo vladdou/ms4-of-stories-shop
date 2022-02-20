@@ -143,6 +143,8 @@ def delete_product(request, product_id):
     messages.success(request, 'Product deleted.')
     return redirect(reverse('products'))
 
+
+# code credit for confirm_delete_product: https://github.com/mmmangooo/Milestone-Project4/blob/master/toys/views.py
 @login_required
 def confirm_delete_product(request, product_id):
     """View to confirm delete product"""
@@ -155,7 +157,5 @@ def confirm_delete_product(request, product_id):
     context = {
         'product': product,
     }
-
     template = 'products/delete_product.html'
-
     return render(request, template, context)

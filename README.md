@@ -44,7 +44,7 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
 ### Existing Features
 
 - **Navbar**   
-    Each page features a responsive Bootstrap navbar that’s collapsed to a burger icon when viewing on smaller screens. The navbar has a hover effect so when the user hovers over the different pages the text changes color. In the left corner there is a logo with a link that takes you to the landing page.
+    Each page features a responsive Bootstrap navbar that’s collapsed to a burger icon when viewing on smaller screens. The navbar has a hover effect so when the user hovers over the different pages the text changes color. In the left corner there is a logo with a link that takes you to the landing page. To the right is a search field where users can search for products on the site and a shortcut to the shopping bag with the amount displayed underneath. 
     - Users that are not logged in have the following pages in the navbar:
         - SHOP 
             - BLANKETS
@@ -64,7 +64,7 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
         - BLOG
         - MY PROFILE
         - LOG OUT  
-    - Admin that are logged in have the following pages in the navbar:
+    - Superuser that are logged in have the following pages in the navbar:
         - HOME
         - SHOP
             - BLANKETS
@@ -82,17 +82,55 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
     The footer is displayed on all pages and features links to the companys social media accounts.
 
 - **Home**  
-    The landing page features a background image with a call to action button with the text *shop now* that leads to the page with all the products so that users have an easy and quick way of finding it.
+    The landing page features a background image with a call to action button with the text *shop now* that leads to the product page so that users have an easy and quick way of finding the products.
+
+- **Sign Up**
+    This page contains a sign up form to register an account.
+
+- **Log In**
+    This page contains a form for the user to login to their account.
+
+- **Password reset page**
+    Option for users to reset their password by email.
 
 - **Shop**
     The user can choose to navigate to all products or to view the products by category. The products page features images of the products followed by name, price, category and rating. The user have the possibility to sort products by price, rating, name and category in either descending or ascending order.
 
 - **Detailed product page**
-    The detailed page of the product features an image of the product that enhances in a new window when you click on it. The user also finds the name, price, category, rating and information about the product, along with an input for choosing the amount of products to add to the bag. Clicking on Add to bag button will trigger a sucess message with feedback of the action. For the Admin there is also an edit and a delete link that takes the admin to an edit form for that product, or to a confirmation page for deleting the product.
+    The detailed page of the product features an image of the product that enhances in a new window when you click on it. The user also finds the name, price, category, rating and information about the product, along with an input for choosing the amount of products to add to the bag. Clicking on Add to bag button will trigger a sucess message with feedback of the action. For the superuser there is also an edit and a delete link that takes the superuser to an edit form for that product, or to a confirmation page for deleting the product. There's also a breadcrumb for easy navigation back to the products.
+
+- **Add product page**
+    This page is only available for the superuser. It contains a form to add new products to the database. 
 
 - **Edit product page**
-    This page is only available for the Admin. It contains a form to edit Category, Sku, Name, Description, Price, Rating and Image. The 'update product' button then add the products new information to the database. The 'cancel' button leads back to the all products page.
+    This page is only available for the superuser. It contains a form to edit Category, Sku, Name, Description, Price, Rating and Image. The form is prefilled with the information earlier provided.The 'update product' button then add the products new information to the database. The 'cancel' button leads back to the all products page.
 
+- **Delete product page**
+    This page is only available for the superuser and is triggered when the Delete button on the product page is clicked. It contains a confirmation text with the name of the actual product being deleted along with two buttons, one that cancels the action and one that deletes the product from the database.
+
+- **Blog**
+    The blog page shows a list of the blog posts with the most recently being added at the top. Every post has a "Read more" button that is linked to the posts detailed page. The user can also click on the header to be redirected to the same page. For the superuser there is also an edit and a delete link that takes the superuser to an edit form for that blog post, or to a confirmation page for deleting the post.
+
+- **Blog post detail page**
+    This page contains the entire blog post text and a link that leads back to the blog posts. For the superuser there is also an edit and a delete link that takes the superuser to an edit form for that blog post, or to a confirmation page for deleting the post.
+
+- **Add blog post**
+    This page is only available for the superuser. It contains a form to add new blog posts to the database. 
+
+- **Edit blog post**
+    This page is only available for the superuser. It contains a form to edit Title, Slug, Author, Content and Status. The form is prefilled with the information earlier provided. The 'update post' button then add the blog posts new information to the database. The 'cancel' button leads back to the blog page.
+
+- **Delete blog post**
+    This page is only available for the superuser and is triggered when the Delete button on the blog post is clicked. It contains a confirmation text with the name of the actual post being deleted along with two buttons, one that cancels the action and one that deletes the post from the database.
+
+- **My Profile**
+    This page features the users default delivery information and with the possibility to update them if needed. There's also the users order history to keep track of previous orders.
+
+- **Contact**
+    This page features a contact form for the user to easily get in touch with the store.
+
+- **Shopping Bag**
+    Gives a detailed information about what's in the users shopping bag, it displays the Product info, Prize, Quantity and subtotal. The user can change the quantity of the products or remove them. The user can see the bags total amount, any delivery costs and how much more they need to spend to get free delivery. There is also a 'keep shopping' buttons that redirects back to the products or a checkout button that leads to the checkout page.
 
 ### Features Left To Implement  
 

@@ -137,10 +137,10 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
 
 ### Features Left To Implement  
 
-    - Pagination would be a good feauture to have when adding more products to the site
-    - To be able to add images to blog posts to make them more vivid and intresting
-    - Upload a wider range of pictures for each item
-    - A newsletter so that users could sign up and get the latest updates and offers 
+ - Pagination would be a good feauture to have when adding more products to the site
+ - To be able to add images to blog posts to make them more vivid and intresting
+ - Upload a wider range of pictures for each item
+ - A newsletter so that users could sign up and get the latest updates and offers 
 
 ## Database   
 
@@ -164,7 +164,7 @@ Diagram of my database:
 
 ### All other tools  
 
-- [Heroku PostgresSQL](https://www.postgresql.org/) - used for relational database storage
+- [PostgresSQL](https://www.postgresql.org/) - used for relational database storage
 - [Heroku](https://dashboard.heroku.com/) - used to deploy the live site
 - [GitPod](https://www.gitpod.io) - used for their IDE while building the website
 - [GitHub](https://github.com) - used to store repository
@@ -176,7 +176,7 @@ Diagram of my database:
 - [Coolors](https://coolors.co) - used to create color palette
 - [dbdiagarm](https://dbdiagram.io/home) - used to create database diagram 
 - [Am I Responsive](http://ami.responsivedesign.is/#) - used to create the mockup image in the beginning of this README file.
-- [AWS S3 Bucket](https://aws.amazon.com/) - was used for storing static and media files
+- [AWS S3 Bucket](https://aws.amazon.com/) - used for storing static and media files
 - [W3C Markup Validation Service](https://validator.w3.org) - used to validating the HTML code
 - [W3C CSS Markup Validation Service](https://jigsaw.w3.org/css-validator/) - used to validating the CSS code
 - [JSHint](https://jshint.com) - used to validating javascript code
@@ -263,15 +263,21 @@ To fork the project follow these steps:
 
 ### Code
 
-https://djangocentral.com/building-a-blog-application-with-django/
+-How to build a blog application with Django is from [Djangocentral](
+https://djangocentral.com/building-a-blog-application-with-django/) and [Codemy.com](https://www.youtube.com/watch?v=B40bteAMM_M)
 
+-How to build a Django contact form is from [OrdinaryCoders](https://ordinarycoders.com/blog/article/build-a-django-contact-form-with-email-backend)
 
 ### Content  
- 
+ Blog post text about mud cloth fabrics is from [here](https://en.wikipedia.org/wiki/B%C3%B2g%C3%B2lanfini)
+
+ Blog post text about baskets is from [here](https://www.hadithikenya.com/fineweave-sisal-baskets)
 
 ### Media
 
-  
+  All images is taken by me
+
+  Logo is made by the illustrator [Oelwein](https://oelwein-studio.com/) for the brand Of Stories
 
 ---
 

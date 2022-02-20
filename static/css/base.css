@@ -35,6 +35,11 @@ a {
     color: #555;
 }
 
+a:hover {
+    color: #637867;
+    text-decoration: none;
+}
+
 .btn{
     background-color: #637867;
     color: white;
@@ -86,7 +91,7 @@ a {
     width: 1.5rem;
 }
 
-/* -------------------------------- Navbar */
+/* -------------------------------- navbar */
 
 #delivery-banner {
     background: #939891;
@@ -451,7 +456,7 @@ a.btn.btn-blog:hover {
 	color: #637867!important;
 }
 
-/* -------------------------------- Media Queries */
+/* -------------------------------- media queries */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {

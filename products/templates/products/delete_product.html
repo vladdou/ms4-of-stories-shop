@@ -15,8 +15,8 @@
 <div class="container mb-2">
     <div class="row">
         <div class="col-md-8 mx-auto">
-                <h2 class="sub-heading mb-4 text-center">Delete Blog Post</h2>
-                <h2 class="text-center">Are you sure you want to delete:<br><br><strong>{{ post.title }}</strong>?</h2>
+                <h2 class="sub-heading mb-4 text-center">Delete Product</h2>
+                <h2 class="text-center">Are you sure you want to delete:<br><br><strong>{{ product.name }}</strong>?</h2>
                 <br>
                 <h3 class="text-center"><i class="fas fa-angle-double-right"></i>this can't be undone<i class="fas fa-angle-double-left"></i></h3>
         </div>
@@ -24,12 +24,12 @@
 
     <div class="row padding-row">
         <div class="col-12 col-md-6 mx-auto mt-3">
-            <form method="POST" action="{% url 'delete_post' post.pk  %}" class="form mb-2" enctype="multipart/form-data">
+            <form method="POST" action="{% url 'delete_product' product.pk  %}" class="form mb-2" enctype="multipart/form-data">
                 {% csrf_token %}
                 
                 <div class="text-center">
-                    <a class="btn rounded-0" href="{% url 'blog' %}">No, go back</a>
-                    <button class="btn rounded-0" type="submit">Yes, Delete Post</button>
+                    <a class="btn rounded-0" href="{% url 'products' %}"> No, go back</a>
+                    <button class="btn rounded-0" type="submit">Yes, Delete Product</button>
                 </div>
             </form>
         </div>            

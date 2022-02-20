@@ -39,8 +39,9 @@ a {
 }
 
 a:hover {
-    color: #637867;
+    color: #637867 !important;
     text-decoration: none;
+    background-color: transparent !important;
 }
 
 .btn{
@@ -183,7 +184,7 @@ a:hover {
     min-width: 160px;
     transition: all .5s ease;
     color: #555;
-    border: 2px solid black;
+    border: 1px solid black;
     font-family:'Open Sans', sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -197,8 +198,9 @@ a:hover {
 }
 
 .image-button:hover {
-    color: #637867;
-    background-color: #fff;
+    color: #fff;
+    background-color: #637867;
+    
 }
 
 /* -------------------------------- bag */

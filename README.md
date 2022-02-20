@@ -96,23 +96,23 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
 - **Shop**
     The user can choose to navigate to all products or to view the products by category. The products page features images of the products followed by name, price, category and rating. The user have the possibility to sort products by price, rating, name and category in either descending or ascending order.
 
-- **Detailed product page**
+- **Product page**
     The detailed page of the product features an image of the product that enhances in a new window when you click on it. The user also finds the name, price, category, rating and information about the product, along with an input for choosing the amount of products to add to the bag. Clicking on Add to bag button will trigger a sucess message with feedback of the action. For the superuser there is also an edit and a delete link that takes the superuser to an edit form for that product, or to a confirmation page for deleting the product. There's also a breadcrumb for easy navigation back to the products.
 
-- **Add product page**
+- **Add a product**
     This page is only available for the superuser. It contains a form to add new products to the database. 
 
-- **Edit product page**
+- **Edit product**
     This page is only available for the superuser. It contains a form to edit Category, Sku, Name, Description, Price, Rating and Image. The form is prefilled with the information earlier provided.The 'update product' button then add the products new information to the database. The 'cancel' button leads back to the all products page.
 
-- **Delete product page**
+- **Delete product**
     This page is only available for the superuser and is triggered when the Delete button on the product page is clicked. It contains a confirmation text with the name of the actual product being deleted along with two buttons, one that cancels the action and one that deletes the product from the database.
 
 - **Blog**
     The blog page shows a list of the blog posts with the most recently being added at the top. Every post has a "Read more" button that is linked to the posts detailed page. The user can also click on the header to be redirected to the same page. For the superuser there is also an edit and a delete link that takes the superuser to an edit form for that blog post, or to a confirmation page for deleting the post.
 
-- **Blog post detail page**
-    This page contains the entire blog post text and a link that leads back to the blog posts. For the superuser there is also an edit and a delete link that takes the superuser to an edit form for that blog post, or to a confirmation page for deleting the post.
+- **Blog post**
+    This page contains the entire blog post text and a link that leads back to all blog posts. For the superuser there is also an edit and a delete link that takes the superuser to an edit form for that blog post, or to a confirmation page for deleting the post.
 
 - **Add blog post**
     This page is only available for the superuser. It contains a form to add new blog posts to the database. 
@@ -132,9 +132,15 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
 - **Shopping Bag**
     Gives a detailed information about what's in the users shopping bag, it displays the Product info, Prize, Quantity and subtotal. The user can change the quantity of the products or remove them. The user can see the bags total amount, any delivery costs and how much more they need to spend to get free delivery. There is also a 'keep shopping' buttons that redirects back to the products or a checkout button that leads to the checkout page.
 
+- **Checkout**
+    This page contains a summary of the users order along with a form where the user fills in their delivery and payment information. If the user is logged in and have saved this information in their profile the form is prefilled with this information. There is a "Adjust bag" button that leads back to the shopping bag and an "Complete order" button for paying and confirming the order.
+
 ### Features Left To Implement  
 
----
+    - Pagination would be a good feauture to have when adding more products to the site
+    - To be able to add images to blog posts to make them more vivid and intresting
+    - Upload a wider range of pictures for each item
+    - A newsletter so that users could sign up and get the latest updates and offers 
 
 ## Database   
 

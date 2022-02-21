@@ -4,7 +4,7 @@
 <nav class="navbar navbar-light navbar-expand-lg menu">
     <div class="container-fluid">
         <a class="navbar-brand" href="{% url 'home' %}">
-            <img src="{{ MEDIA_URL }}logo.png"alt="" width="auto" height="40" alt="Logo Of Stories">
+            <img src="{{ MEDIA_URL }}logo.png" alt="Of Stories logo" style="width:auto" height="40">
         </a>
         <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -25,7 +25,7 @@
                         <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
                     </div>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'blog' %}" class="dropdown-item">Blog</a>
+                        <a class="nav-link dropdown-item" href="{% url 'blog' %}">Blog</a>
                     </li>
                     <!-- nav links showing only if user is logged in as admin -->
                     {% if request.user.is_superuser %}
@@ -35,29 +35,28 @@
                             Admin
                         </a>
                         <div class="dropdown-menu border-0 menu" aria-labelledby="navbarDropdown">
-                            <a class="nav-link" href="{% url 'add_product' %}" class="dropdown-item">Add Products</a>
-                            <a class="nav-link" href="{% url 'add_post' %}" class="dropdown-item">Add Blogpost</a>
+                            <a class="nav-link dropdown-item" href="{% url 'add_product' %}">Add Products</a>
+                            <a class="nav-link dropdown-item" href="{% url 'add_post' %}">Add Blogpost</a>
                         </div>
             
                 {% endif %}
                 <!-- nav links showing only if user is logged in -->
                 {% if request.user.is_authenticated %}
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
+                    <a class="nav-link dropdown-item" href="{% url 'profile' %}">My Profile</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'account_logout' %}" class="dropdown-item">Log out</a>
+                    <a class="nav-link dropdown-item" href="{% url 'account_logout' %}">Log out</a>
                 </li>
                 {% else %}
+                <li class="nav-item">
+                    <a class="nav-link dropdown-item" href="{% url 'account_signup' %}">Sign Up</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'account_signup' %}">Sign Up</a>
+                    <a class="nav-link dropdown-item" href="{% url 'account_login' %}">Log in</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'account_login' %}" class="dropdown-item">Log in</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'contact' %}" class="dropdown-item">Contact</a>
+                    <a class="nav-link dropdown-item" href="{% url 'contact' %}">Contact</a>
                 </li>
                 
               

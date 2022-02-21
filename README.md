@@ -263,10 +263,10 @@ To fork the project follow these steps:
 
 ### Code
 
--How to build a blog application with Django is from [Djangocentral](
+How to build a blog application with Django is from [Djangocentral](
 https://djangocentral.com/building-a-blog-application-with-django/) and [Codemy.com](https://www.youtube.com/watch?v=B40bteAMM_M)
 
--How to build a Django contact form is from [OrdinaryCoders](https://ordinarycoders.com/blog/article/build-a-django-contact-form-with-email-backend)
+How to build a Django contact form is from [OrdinaryCoders](https://ordinarycoders.com/blog/article/build-a-django-contact-form-with-email-backend)
 
 ### Content  
  Blog post text about mud cloth fabrics is from [here](https://en.wikipedia.org/wiki/B%C3%B2g%C3%B2lanfini)

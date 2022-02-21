@@ -198,9 +198,8 @@ a:hover {
 }
 
 .image-button:hover {
-    color: #fff;
-    background-color: #637867;
-    
+    color: #fff !important;
+    background-color: #637867 !important;
 }
 
 /* -------------------------------- bag */

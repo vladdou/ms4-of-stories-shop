@@ -1,20 +1,18 @@
 {% extends 'base.html' %}
 {% load static %}
-
 {% block content %}
 <div class="overlay"></div>
 <div class="container mb-2 header-container">
-    <div class="row padding-row">
-        <div class="col-md-8 mx-auto">
-            <h2 class="sub-heading mb-4 text-center">Sorry</h2>
-            <h2 class="text-center">An internal server error occured</h2>
-            <h3 class="text-center">- 500 Error -</h3>
-            <br><br>
-            <div class="text-center">
-                <a class="btn text-center rounded-0" href="{% url 'home' %}">Go back to homepage</a>
-            </div>
-        </div>
-    </div>
+   <div class="row padding-row">
+      <div class="col-md-8 mx-auto">
+         <h2 class="sub-heading mb-4 text-center">Sorry</h2>
+         <h2 class="text-center">An internal server error occured</h2>
+         <h3 class="text-center">- 500 Error -</h3>
+         <br><br>
+         <div class="text-center">
+            <a class="btn text-center rounded-0" href="{% url 'home' %}">Go back to homepage</a>
+         </div>
+      </div>
+   </div>
 </div>
-
 {% endblock %}

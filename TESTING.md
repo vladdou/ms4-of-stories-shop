@@ -216,11 +216,23 @@ I moved the url above the other ones and it worked perfecly. It was most likely 
 
 ---
 
-- I get a 500 error when I click on the blog page in my deployed heroku app
+- I've got a 500 error on two of my pages, the blog and the shop in my deployed heroku app. 
 
 <br>
 <img src="static/README/bugs/blog_error.png" width="600" height="300"/>
 <br>
+ 
+I put a DEVELOPMENT variable in my Heroku config vars to get a better idea of what's going on. The error showing was:
+
+<br>
+<img src="static/README/bugs/programming_error.png" width="600" height="300"/>
+<br>
+
+To fix this problem I needed to run migrations on the postgres database:
+- logged in to the heroku cli in my workspace terminal: heroku login -i
+- then, I migrate with: heroku run python3 manage.py migrate
+
+
 
 
 

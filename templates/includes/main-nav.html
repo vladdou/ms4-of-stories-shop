@@ -33,7 +33,7 @@
                 Admin
                 </a>
                 <div class="dropdown-menu border-0 menu" aria-labelledby="navbarDropdown">
-                   <a class="nav-link dropdown-item" href="{% url 'add_product' %}">Add Products</a>
+                   <a class="nav-link dropdown-item" href="{% url 'add_product' %}">Add Product</a>
                    <a class="nav-link dropdown-item" href="{% url 'add_post' %}">Add Blogpost</a>
                 </div>
                 {% endif %}
@@ -52,10 +52,10 @@
              <li class="nav-item">
                 <a class="nav-link dropdown-item" href="{% url 'account_login' %}">Log in</a>
              </li>
-             <li class="nav-item">
-                <a class="nav-link dropdown-item" href="{% url 'contact' %}">Contact</a>
-             </li>
              {% endif %}
+             <li class="nav-item">
+               <a class="nav-link dropdown-item" href="{% url 'contact' %}">Contact</a>
+            </li>
           </ul>
           <!-- search field -->
           <form class="form-inline d-flex" method="GET" action="{% url 'products' %}">

@@ -275,7 +275,23 @@ I moved the url above the other ones and it worked perfecly. It was most likely 
     - Only visible when superuser is logged in
     - Add products page displays a form when filled out correctly adds a product to the database
     - Add blog post page displays a form when filled out correctly adds a blog post to the database
-  
+- Contact Form
+    - Showing signed in users emailaddress prefilled
+    - Sending emails to site owner
+- Shopping bag
+    - Shopping bag showing info about product(s)
+    - Quantity function
+    - Remove from bag function
+    - Delivery cost showing under $50 and is removed above
+    - Checkout button
+- Checkout
+    - Delivery information is prefilled if saved to My profile
+    - Order summary shows
+    - Complete order with stripe
+    - Showing information of order
+    - Recieving confirmation email
+    - Order being created in database
+
 
 ## Testing Responsiveness  
 

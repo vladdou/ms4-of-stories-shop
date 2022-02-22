@@ -397,6 +397,11 @@ a.btn.btn-blog:hover {
     font-size: 14px;
 }
 
+.product-info{
+    font-size: 12px;
+    font-weight: 500;
+}
+
 .decrement-qty, .increment-qty{
     padding: .3rem .5rem;
     background-color: transparent;

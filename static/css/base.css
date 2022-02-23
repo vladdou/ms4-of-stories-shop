@@ -8,8 +8,13 @@ body {
     margin:0;
     padding:0;
     height:100%;
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
+
+.content {
+    flex: 1 0 auto;
+  }
 
 h1 {
     letter-spacing: 2px;
@@ -176,7 +181,7 @@ a:hover {
 /* code credit: https://www.codespot.org/css-hover-effects/ */
 .shop-now-button:hover {
     color: #637867;
-    background-color: #fff;
+    background-color: #fff !important;
     border: 2px solid black;
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -455,6 +460,8 @@ a.btn.btn-blog:hover {
 
 .page-footer {
     background-color: white;
+    flex-shrink: 0;
+  
 }
 
 .social-links {

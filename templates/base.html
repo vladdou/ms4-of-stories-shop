@@ -63,8 +63,10 @@
       {% endif %}
       {% block page_header %}
       {% endblock %}
+      <div class="content">
       {% block content %}
       {% endblock %}
+      </div>
       <!-- Including footer -->
       {% include 'includes/footer.html' %}
       {% block postloadjs %}

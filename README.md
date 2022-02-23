@@ -12,7 +12,7 @@ This is a webshop for my own brand Of Stories that sells collections of handmade
 
 ### The Goals For This Website Is To:  
 
-- Give users the possibility to find unique collections of handmade items for their home
+- Give users the possibility to purchase unique collections of handmade items for their home
 - Support small businesses 
 - Share stories about the company and their products through the blog
 
@@ -64,6 +64,7 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
         - BLOG
         - MY PROFILE
         - LOG OUT  
+        - CONTACT 
     - Superuser that are logged in have the following pages in the navbar:
         - HOME
         - SHOP
@@ -77,6 +78,7 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
             - ADD BLOGPOST
         - MY PROFILE
         - LOG OUT  
+        - CONTACT 
 
 - **Footer**  
     The footer is displayed on all pages and features links to the companys social media accounts.

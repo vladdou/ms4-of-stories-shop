@@ -32,6 +32,13 @@ h4{
     font-weight: 200;  
 }
 
+h5{
+    font-size: 14px;
+    font-weight: 400; 
+    letter-spacing: 2px;
+    text-transform:uppercase;
+}
+
 /* -------------------------------- general */
 
 a {
@@ -387,10 +394,13 @@ a.btn.btn-blog:hover {
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .product-price{
     font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
 .product-description{
@@ -399,7 +409,8 @@ a.btn.btn-blog:hover {
 
 .product-info{
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
 .decrement-qty, .increment-qty{

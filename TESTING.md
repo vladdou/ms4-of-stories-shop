@@ -198,18 +198,22 @@ No errors were found
  - When I clicked on the checkout button I got an error saying "local variable 'order_form' referenced before assignment" and it said the issue was in checkout views. 
 
 <br>
-<img src="static/README/bugs/local_variable_bug.png" width="500" height="300"/>
+<img src="static/README/bugs/local_variable_bug.png" width="auto" height="300"/>
 <br>
 
 When I googled the issue it says that this occurs when some variable is referenced before assignment within a function’s body. It turned out it was a small indentation error. The form was nested in the GET block: when a POST request is made to the view it cannot find the form as value is only assigned upon a GET request. I had the else block that rendered the form within the block of code that run only on GET requests, 
 and with the indentation error order_form had no value on POST
+
+<br>
+<img src="static/README/bugs/order_form.png" width="auto" height="300"/>
+<br>
 
 ---
 
 - When I wanted to reach the add_blog page I got: Page not found , 404 error. 
 
 <br>
-<img src="static/README/bugs/page_not_found.png" width="500" height="300"/>
+<img src="static/README/bugs/page_not_found.png" width="auto" height="300"/>
 <br>
 
 I moved the url above the other ones and it worked perfecly. It was most likely that Django tried the patterns in order and found a "match" before the intended.
@@ -219,21 +223,50 @@ I moved the url above the other ones and it worked perfecly. It was most likely 
 - I've got a 500 error on two of my pages, the blog and the shop in my deployed heroku app. 
 
 <br>
-<img src="static/README/bugs/blog_error.png" width="600" height="300"/>
+<img src="static/README/bugs/blog_error.png" width="auto" height="300"/>
 <br>
  
 I put a DEVELOPMENT variable in my Heroku config vars to get a better idea of what's going on. The error showing was:
 
 <br>
-<img src="static/README/bugs/programming_error.png" width="600" height="300"/>
+<img src="static/README/bugs/programming_error.png" width="auto" height="300"/>
 <br>
 
 To fix this problem I needed to run migrations on the postgres database:
-- logged in to the heroku cli in my workspace terminal: heroku login -i
-- then, I migrate with: heroku run python3 manage.py migrate
 
+1. logged in to the heroku cli in my workspace terminal: heroku login -i
+2. then, I migrate with: heroku run python3 manage.py migrate
 
+---
 
+- The footer didn't stick to the bottom of the page if there wasn't enough content
+
+<br>
+<img src="static/README/bugs/footer-bug.png" width="auto" height="300"/>
+<br>
+
+This issue was solved by adding 
+`<div class=content> </div>`
+around the block content in base.html and adding this styling to css:
+
+`html, body {
+  height: 100%;
+}`
+
+`body {
+  display: flex;
+  flex-direction: column;
+}`
+
+`.content {
+  flex: 1 0 auto;
+}`
+
+`.footer {
+  flex-shrink: 0;
+}`
+
+Now everything was working except on the index page where the footer now was in the middle of the page below the hero image. It turned out I had added h-100 to my index-hero container class and it was setting the element to be 100% of device height and not allowing the div to stretch for full content. I already had the height set to 100vh in base.css on index-hero so it was extra anyway. When I removed this everything worked.
 
 
 ### Responsiveness issues  

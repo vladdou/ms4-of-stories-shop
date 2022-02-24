@@ -200,43 +200,58 @@ No errors were found
 
 *19. As a shopper I want to be able to view an order confirmation after checkout so that I can verify that I didn't make any mistakes.*
 
-![user_story_19](static/README/user_stories/)  
+- After checkout the user is sent to a checkout success page that shows the order confirmation
+
+![user_story_19](static/README/user_stories/user-stories-19.png)  
 
 ---
 
 *20. As a shopper I want to be able to recieve confirmation email after checkout so that I can keep information about my order.*
 
-![user_story_20](static/README/user_stories/)  
+- The user will recieve a confirmation email after the checkout is completed
+
+![user_story_20](static/README/user_stories/user-stories-20)  
 
 ---
 
-*21. As a store owner I want to be able to add products to the site so that I can add new products to the shop.*
+*21. As a store owner I want to be able to add products to the site so that I can update my shop with new items.*
 
-![user_story_21](static/README/user_stories/)  
+- When the superuser is logged in it's possible to access a form for adding products through the navbar
+
+![user_story_21](static/README/user_stories/user-stories-21)  
 
 ---
 
 *22. As a store owner I want to be able to edit and update a product so that I can change products descriptions, prices and so on.*
 
-![user_story_22](static/README/user_stories/)  
+- When the superuser is logged in it's possible to edit a product via a link on the products page 
+
+![user_story_22](static/README/user_stories/user-stories-22)  
 
 ---
 
 *23. As a store owner I want to be able to delete a product so that I can remove items that are no longer for sale.*		
 
-![user_story_23](static/README/user_stories/)  
+- When the superuser is logged in it's possible to delete a product via a link on the products page
+
+![user_story_23](static/README/user_stories/user-stories-23)  
 
 ---
 
-*24. As a store owner I want to be able to add a blog post so that I can	give information to shoppers about the products and the company.*	
+*24. As a store owner I want to be able to add a blog post so that I can give information to shoppers about the products and the company.*	
 
-![user_story_24](static/README/user_stories/)  
+
+- When the superuser is logged in it's possible to access a form for adding blog posts through the navbar
+
+![user_story_24](static/README/user_stories/user-stories-24)  
 
 ---
 
 *25. As a store owner I want to be able to edit and delete a blog post so that I can update or delete information that are no longer relevant.*			
 
-![user_story_25](static/README/user_stories/)  
+- When the superuser is logged in it's possible to edit and delete a blog post via a link on the blog post page
+
+![user_story_25](static/README/user_stories/user-stories-25)  
 
 ---
 

@@ -4,9 +4,7 @@
 
 
 
-This is a webshop for my own brand Of Stories that sells collections of handmade goods for your home. The sites purpose is t
-
-Of Stories is a brand that sells collections of handmade goods for your home. The collections comes in small batches and the company works directly with the artisans so there is no middleman.  
+This is a webshop for my own brand Of Stories that sells small collections of handmade goods for your home. The sites purpose is to be an independent store for interior design goods. A shop where people can find products from near and afar but always from small producers and with a variety of handicraft.
 
 ---  
 
@@ -16,8 +14,7 @@ Of Stories is a brand that sells collections of handmade goods for your home. Th
 
 - Give users the possibility to purchase unique collections of handmade items for their home
 - Support small businesses 
-- Share stories about the company and their products through the blog
-
+- Share stories about the company and the products through the blog
 - Make it easy for users to navigate the site on any device   
 - Be able to create an account for a smooth and easy shopping experience
 
@@ -25,7 +22,7 @@ Of Stories is a brand that sells collections of handmade goods for your home. Th
 ![user stories](static/README/user_stories/user-stories-MS4.png)
 
 ### Design   
-I wanted the site to be easy navigated with a clean and minimalistic design. The focus should be on the images of the products.
+Since I chose to make this webpage for my own brand I felt a freedom to create it in line with my own preference of design which is minimalistic, clean and with an earthy tone to the coloring. All of these features, in my opinion, corresponds well with my intentions of making this site easy to navigate and to highlight the products. A user entering this page should have a logical as well as an effortless and pleasant way to the products.
 
  #### Colors  
 Since the company is working with products only made of natural materials I wanted to have colors that was representing nature and sustainability. I choose two different shades of green that I thought fit this purpose perfectly, #637867 & #939891 and that is calming for the eye. #F2F1EF was picked from the hero image on the index page and used as a background overlay to tie the pages together. 
@@ -285,6 +282,7 @@ How to get a footer to stick to the bottom of the page is from [css-tricks](http
   All images is taken by me
 
   Logo is made by the illustrator [Oelwein](https://oelwein-studio.com/) for the brand Of Stories
+
 
 ---
 

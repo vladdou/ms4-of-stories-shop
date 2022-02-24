@@ -534,8 +534,12 @@ a.btn.btn-blog:hover {
 	}
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* code credit from: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/*/
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
 	.image-button{
 		margin-top: 0;
 	}

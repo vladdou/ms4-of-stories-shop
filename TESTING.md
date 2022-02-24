@@ -37,8 +37,6 @@ No errors were found
 
 ![user_story_1](static/README/user_stories/user-stories-1.png)  
 
-![user_story_1](static/README/user_stories/)  
-
 ---  
 
 *2. As a shopper I want to be able to view details about a product so that I can identify the price, product description and image.*
@@ -47,12 +45,6 @@ No errors were found
 
 ![user_story_2](static/README/user_stories/user-stories-2.png)  
   
-
-![user_story_2](static/README/user_stories/)  
-    
-
-![user_story_2](static/README/user_stories/)  
-
 ---
 
 *3. As a shopper I want to be able to view the rating of a product so that I can see what others think of the product I'm interested in.*
@@ -71,7 +63,7 @@ No errors were found
 
 ---
 
-*5. As a site user I want to be able to find information about the company and their products so that I can	learn more about things that could be of interest.*
+*5. As a site user I want to be able to find useful information about the products and their origins so that I can learn more about the products and the values of the company.*
 
 - Users can find information through the blog that is located in the navbar
 
@@ -99,7 +91,7 @@ No errors were found
 
 ---
 
-*8. As a site user I want to be able to recover my password in case I forget it so that I can recover access to my account.*
+*8. As a site user I want to be able to recover my password in case I forget it so that I can regain access to my account.*
 
 - On the log in page is a link for resetting the password
 
@@ -108,9 +100,9 @@ No errors were found
 
 ---
 
-*9. As a site user I want to be able to recieve email confirmation after registering so that I can know my account registration was successful.*
+*9. As a site user I want to be able to receive email confirmation after registering so that I can know my account registration was successful.*
 
-- The user will recieve a email confirmation after signing up for an account
+- The user will receive a email confirmation after signing up for an account
 
 ![user_story_9](static/README/user_stories/user-stories-9.png)  
 
@@ -120,7 +112,7 @@ No errors were found
 
 - When a user is registered they will have a personalized profile page that will be available through the navbar
 
-![user_story_10](static/README/user_stories/my-profile.png.png)  
+![user_story_10](static/README/user_stories/my-profile.png)  
 
 ---
 
@@ -149,7 +141,7 @@ No errors were found
 
 ---
 
-*14. As a shopper I want to be able look for products sorted by category so that I can find the product type that I'm looking for.*
+*14. As a shopper I want to be able to look for products sorted by category so that I can find the type of product that I'm looking for.*
 
 - Users can choose a category they're intrested in through the **SHOP** dropdown link in the navbar
 
@@ -167,14 +159,14 @@ No errors were found
 
 ![user_story_15](static/README/user_stories/user-stories-15.png)
 
-- They can also go straight to the shop trough the **SHOP** link available in the navbar
+- They can also go straight to the shop through the **SHOP** link available in the navbar
 
 ![user_story_15](static/README/user_stories/shop-access.png)  
 
 
 ---
 
-*16. As a shopper I want to be able to select the quantity of a product that I want to buy so that I can	ensure I order the amount I want.*
+*16. As a shopper I want to be able to select the quantity of a product that I want to buy so that I can ensure I order the amount I want.*
 
 - On the product detail page there is a quantity selector to easy choose the number of products to buy
 
@@ -192,7 +184,7 @@ No errors were found
 
 *18. As a shopper I want to be able to easily enter payment information so that I can checkout quick and easy.*
 
-- The checkout page contains a payment form making it easy for the user to add their information
+- The checkout page contains a payment form making it easy for the user to add their information and to save it to their profile for even easier checkouts in the future
 
 ![user_story_18](static/README/user_stories/user-stories-18.png)  
 
@@ -200,15 +192,15 @@ No errors were found
 
 *19. As a shopper I want to be able to view an order confirmation after checkout so that I can verify that I didn't make any mistakes.*
 
-- After checkout the user is sent to a checkout success page that shows the order confirmation
+- After checkout the user is sent to a checkout success page that shows the order information
 
 ![user_story_19](static/README/user_stories/user-stories-19.png)  
 
 ---
 
-*20. As a shopper I want to be able to recieve confirmation email after checkout so that I can keep information about my order.*
+*20. As a shopper I want to be able to receive a confirmation email after checkout so that I can keep information about my order.*
 
-- The user will recieve a confirmation email after the checkout is completed
+- The user will receive a confirmation email after the checkout is completed
 
 ![user_story_20](static/README/user_stories/user-stories-20)  
 
@@ -222,7 +214,7 @@ No errors were found
 
 ---
 
-*22. As a store owner I want to be able to edit and update a product so that I can change products descriptions, prices and so on.*
+*22. As a store owner I want to be able to edit and update a product so that I can change the products description, price and so on.*
 
 - When the superuser is logged in it's possible to edit a product via a link on the products page 
 
@@ -240,8 +232,7 @@ No errors were found
 
 ---
 
-*24. As a store owner I want to be able to add a blog post so that I can give information to shoppers about the products and the company.*	
-
+*24. As a store owner I want to be able to add a blog post so that I can share useful information about the products and the company.*	
 
 - When the superuser is logged in it's possible to access a form for adding blog posts through the navbar
 
@@ -256,12 +247,6 @@ No errors were found
 ![user_story_25](static/README/user_stories/user-stories-25)
 ![user_story_25](static/README/user_stories/edit-blog.png)
 ![user_story_23](static/README/user_stories/delete-blog.png)  
-
-
----
-
-
-
   
 ---   
   

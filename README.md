@@ -1,7 +1,8 @@
 # Of Stories Webshop  
+ 
+![mockup image](static/README/images/responsive-image.png)  
 
-[A live version of the page can be viewed here](https://of-stories.herokuapp.com/)  
-
+[A live version of the page can be viewed here](https://of-stories.herokuapp.com/) 
 
 
 This is a webshop for my own brand Of Stories that sells small collections of handmade goods for your home. The sites purpose is to be an independent store for interior design goods. A shop where people can find products from near and afar but always from small producers and with a variety of handicraft.
@@ -19,7 +20,7 @@ This is a webshop for my own brand Of Stories that sells small collections of ha
 - Be able to create an account for a smooth and easy shopping experience
 
 ### User Stories  
-![user stories](static/README/user_stories/user-stories-MS4.png)
+![user stories](static/README/user_stories/user-stories-ms4.png)
 
 ### Design   
 Since I chose to make this webpage for my own brand I felt a freedom to create it in line with my own preference of design which is minimalistic, clean and with an earthy tone to the coloring. All of these features, in my opinion, corresponds well with my intentions of making this site easy to navigate and to highlight the products. A user entering this page should have a logical as well as an effortless and pleasant way to the products.
@@ -176,7 +177,7 @@ Diagram of my database:
 - [Freeformatter](https://www.freeformatter.com/) - used to beautify code
 - [Coolors](https://coolors.co) - used to create color palette
 - [dbdiagarm](https://dbdiagram.io/home) - used to create database diagram 
-- [Am I Responsive](http://ami.responsivedesign.is/#) - used to create the mockup image in the beginning of this README file.
+- [Techsini](https://techsini.com/multi-mockup/index.php) - used to create the mockup image in the beginning of this README file.
 - [AWS S3 Bucket](https://aws.amazon.com/) - used for storing static and media files
 - [W3C Markup Validation Service](https://validator.w3.org) - used to validating the HTML code
 - [W3C CSS Markup Validation Service](https://jigsaw.w3.org/css-validator/) - used to validating the CSS code

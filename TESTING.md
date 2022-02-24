@@ -33,7 +33,7 @@ No errors were found
 
 *1. As a shopper I want to be able to view all the products so that I can select some to purchase.*
 
-- All users who visits the website can view the products without having an account or log in. They can navigate through the navbar or use the call to action buttons on the landing page.
+- All users who visits the website can view all the products without having an account or log in. 
 
 ![user_story_1](static/README/user_stories/user-stories-1.png)  
 
@@ -226,7 +226,8 @@ No errors were found
 
 - When the superuser is logged in it's possible to edit a product via a link on the products page 
 
-![user_story_22](static/README/user_stories/user-stories-22)  
+![user_story_22](static/README/user_stories/user-stories-22) 
+![user_story_22](static/README/user_stories/edit-product.png)  
 
 ---
 
@@ -234,7 +235,8 @@ No errors were found
 
 - When the superuser is logged in it's possible to delete a product via a link on the products page
 
-![user_story_23](static/README/user_stories/user-stories-23)  
+![user_story_23](static/README/user_stories/user-stories-23)
+![user_story_23](static/README/user_stories/delete-product.png)  
 
 ---
 
@@ -251,7 +253,10 @@ No errors were found
 
 - When the superuser is logged in it's possible to edit and delete a blog post via a link on the blog post page
 
-![user_story_25](static/README/user_stories/user-stories-25)  
+![user_story_25](static/README/user_stories/user-stories-25)
+![user_story_25](static/README/user_stories/edit-blog.png)
+![user_story_23](static/README/user_stories/delete-blog.png)  
+
 
 ---
 

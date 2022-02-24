@@ -33,7 +33,9 @@ No errors were found
 
 *1. As a shopper I want to be able to view all the products so that I can select some to purchase.*
 
-![user_story_1](static/README/user_stories/)  
+- All users who visits the website can view the products without having an account or log in. They can navigate through the navbar or use the call to action buttons on the landing page.
+
+![user_story_1](static/README/user_stories/user-stories-1.png)  
 
 ![user_story_1](static/README/user_stories/)  
 
@@ -41,7 +43,9 @@ No errors were found
 
 *2. As a shopper I want to be able to view details about a product so that I can identify the price, product description and image.*
 
-![user_story_2](static/README/user_stories/)  
+- By clicking on the image or titel of a product the user gets to the products detail page where they can view the price, description and a larger image of the product.
+
+![user_story_2](static/README/user_stories/user-stories-2.png)  
   
 
 ![user_story_2](static/README/user_stories/)  
@@ -53,96 +57,144 @@ No errors were found
 
 *3. As a shopper I want to be able to view the rating of a product so that I can see what others think of the product I'm interested in.*
 
-![user_story_3](static/README/user_stories/)  
+- The rating of a product is shown on the products card and on the detailed products page.
+
+![user_story_3](static/README/user_stories/user-stories-3.png)  
 
 ---
 
-*4. As a shopper I want to be able to view the total price in my shopping bag so that I can avoid spending too much.*
+*4. As a shopper I want to be able to view the total price in my shopping bag so that I can be aware of how much money I'm spending.*
 
-![user_story_4](static/README/user_stories/)  
+- The shopping bag is available at all time in the navbar where the user can see the total amount spent
+
+![user_story_4](static/README/user_stories/user-stories-4.png)  
 
 ---
 
 *5. As a site user I want to be able to find information about the company and their products so that I can	learn more about things that could be of interest.*
 
-![user_story_5](static/README/user_stories/)  
+- Users can find information through the blog that is located in the navbar
+
+![user_story_5](static/README/user_stories/user-stories-5.png)  
 
 ---
 
 *6. As a site user I want to be able to register for an account so that I can have a personal account and be able to view my profile.*
 
-![user_story_6](static/README/user_stories/)  
+- A link to the sign up form where users can register for an account is available through the navbar
+
+![user_story_6](static/README/user_stories/user-stories-6.png)  
 
 ---
 
 *7. As a site user I want to be able to log in/log out so that I can access my personal account information*	
 
-![user_story_7](static/README/user_stories/)  
+- A link to the log in form where users can log in is available through the navbar
+
+![user_story_7](static/README/user_stories/login.png)  
+
+- Once the user is logged in, a link to the log out page appears in the navbar
+
+![user_story_7](static/README/user_stories/logout.png) 
 
 ---
 
 *8. As a site user I want to be able to recover my password in case I forget it so that I can recover access to my account.*
 
-![user_story_8](static/README/user_stories/)  
+- On the log in page is a link for resetting the password
+
+![user_story_8](static/README/user_stories/user-stories-8.png) 
+![user_story_8](static/README/user_stories/password-reset.png)  
 
 ---
 
 *9. As a site user I want to be able to recieve email confirmation after registering so that I can know my account registration was successful.*
 
-![user_story_9](static/README/user_stories/)  
+- The user will recieve a email confirmation after signing up for an account
+
+![user_story_9](static/README/user_stories/user-stories-9.png)  
 
 ---
 
 *10. As a site user I want to be able to have a personalized user profile so that I can view my order history and save my payment information.*
 
-![user_story_10](static/README/user_stories/)  
+- When a user is registered they will have a personalized profile page that will be available through the navbar
+
+![user_story_10](static/README/user_stories/my-profile.png.png)  
 
 ---
 
 *11. As a shopper I want to be able to sort the list of products so that I can identify the product that is best rated or has the best price.*
 
-![user_story_11](static/README/user_stories/)  
+- On the product page there is a selector dropdown where the user can choose to sort the products by price, name etc.
+
+![user_story_11](static/README/user_stories/user-stories-11.png)  
 
 ---
 
 *12. As a shopper I want to be able to search for a product by name or description so that I can find a specific product that I'm looking for.*
 
-![user_story_12](static/README/user_stories/)  
+- In the navbar is a search input field where the user can search for products on the site
+
+![user_story_12](static/README/user_stories/user-stories-12.png)  
 
 ---
 
-*13. As a shopper I want to be able look for products sorted by category so that I can find the product type that I'm looking for.*
+*13. As a shopper I want to be able to see what I have searched for and the number of results so that I can	see if the product I'm looking for is available.*
 
-![user_story_13](static/README/user_stories/)  
+- The search result is shown on the product page with a heading telling the user what they've searched for and the number of results found
+
+
+![user_story_13](static/README/user_stories/user-stories-13.png)  
 
 ---
 
-*14. As a shopper I want to be able to see what I have searched for and the number of results so that I can	see if the product I'm looking for is available.*
+*14. As a shopper I want to be able look for products sorted by category so that I can find the product type that I'm looking for.*
 
-![user_story_14](static/README/user_stories/)  
+- Users can choose a category they're intrested in through the **SHOP** dropdown link in the navbar
+
+![user_story_14](static/README/user_stories/user-stories-14.png)  
+
+- They can also navigate through the links available on the home page.
+
+![user_story_14](static/README/user_stories/product-categories.png) 
 
 ---
 
 *15. As a shopper I want to be able to access the shop quick and easy so that I can purchase the products that I'm looking for.*
 
-![user_story_15](static/README/user_stories/)  
+- Users can access the shop quickly by clicking the call to action buttons on the home page
+
+![user_story_15](static/README/user_stories/user-stories-15.png)
+
+- They can also go straight to the shop trough the **SHOP** link available in the navbar
+
+![user_story_15](static/README/user_stories/shop-access.png)  
+
 
 ---
 
 *16. As a shopper I want to be able to select the quantity of a product that I want to buy so that I can	ensure I order the amount I want.*
 
-![user_story_16](static/README/user_stories/)  
+- On the product detail page there is a quantity selector to easy choose the number of products to buy
+
+![user_story_16](static/README/user_stories/user-stories-16.png)  
 
 ---
 
 *17. As a shopper I want to be able to view all items in my shopping bag so that I can make sure I've got the things I wanted to order and identify the cost.*
 
-![user_story_17](static/README/user_stories/)  
+- On the shopping bag page the user will have a overview on all the items in the bag and the bag total 
+
+![user_story_17](static/README/user_stories/user-stories-17.png)  
 
 ---
 
 *18. As a shopper I want to be able to easily enter payment information so that I can checkout quick and easy.*
-![user_story_18](static/README/user_stories/)  
+
+- The checkout page contains a payment form making it easy for the user to add their information
+
+![user_story_18](static/README/user_stories/user-stories-18.png)  
 
 ---
 

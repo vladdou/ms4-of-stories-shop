@@ -39,7 +39,7 @@ No errors were found
 
 ---  
 
-*2. As a shopper I want to be able to view details about a product so that I can	identify the price, product description and image.*
+*2. As a shopper I want to be able to view details about a product so that I can identify the price, product description and image.*
 
 ![user_story_2](static/README/user_stories/)  
   
@@ -105,7 +105,7 @@ No errors were found
 
 ---
 
-*12. As a shopper I want to be able to search for a product by name or description so that I can	find a specific product that I'm looking for.*
+*12. As a shopper I want to be able to search for a product by name or description so that I can find a specific product that I'm looking for.*
 
 ![user_story_12](static/README/user_stories/)  
 
@@ -182,7 +182,7 @@ No errors were found
 
 ---
 
-*25. As a store owner I want to be able to delete a blog post so that I can delete information that are no longer relevant.*			
+*25. As a store owner I want to be able to edit and delete a blog post so that I can update or delete information that are no longer relevant.*			
 
 ![user_story_25](static/README/user_stories/)  
 

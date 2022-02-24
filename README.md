@@ -6,6 +6,8 @@
 
 This is a webshop for my own brand Of Stories that sells collections of handmade goods for your home. The sites purpose is t
 
+Of Stories is a brand that sells collections of handmade goods for your home. The collections comes in small batches and the company works directly with the artisans so there is no middleman.  
+
 ---  
 
 ## UX  
@@ -26,7 +28,7 @@ This is a webshop for my own brand Of Stories that sells collections of handmade
 I wanted the site to be easy navigated with a clean and minimalistic design. The focus should be on the images of the products.
 
  #### Colors  
-Beyond white for the navbar and footer and a darker grey #555 for the body text I wanted to have a main color that was calming for the eye and that was representing nature and sustainability. I choose two different shades of green that I thought fit this purpose perfectly, #637867 & #939891. #F2F1EF was picked from the hero image on the index page and used as an  background overlay to tie the pages together. 
+Since the company is working with products only made of natural materials I wanted to have colors that was representing nature and sustainability. I choose two different shades of green that I thought fit this purpose perfectly, #637867 & #939891 and that is calming for the eye. #F2F1EF was picked from the hero image on the index page and used as a background overlay to tie the pages together. 
 
 ![color palette](static/README/images/color-palette.png)
 
@@ -270,10 +272,13 @@ https://djangocentral.com/building-a-blog-application-with-django/) and [Codemy.
 
 How to build a Django contact form is from [OrdinaryCoders](https://ordinarycoders.com/blog/article/build-a-django-contact-form-with-email-backend)
 
+How to get a footer to stick to the bottom of the page is from [css-tricks](https://css-tricks.com/couple-takes-sticky-footer/)
+
 ### Content  
  Blog post text about mud cloth fabrics is from [here](https://en.wikipedia.org/wiki/B%C3%B2g%C3%B2lanfini)
 
  Blog post text about baskets is from [here](https://www.hadithikenya.com/fineweave-sisal-baskets)
+
 
 ### Media
 

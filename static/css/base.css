@@ -19,7 +19,7 @@ body {
 h1 {
 	letter-spacing: 2px;
     font-weight: 300;
-    font-size: 36px;
+    font-size: 42px;
     text-transform: uppercase;  
 }
 
@@ -534,6 +534,13 @@ a.btn.btn-blog:hover {
 	}
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.image-button{
+		margin-top: 0;
+	}
+}
+
 /* if the screen size is 991px or less*/
 
 /* pad the top a bit when navbar is collapsed on mobile */
@@ -570,4 +577,6 @@ a.btn.btn-blog:hover {
 	.navbar-toggler {
 		font-size: 1rem;
 	}
+	
 }
+

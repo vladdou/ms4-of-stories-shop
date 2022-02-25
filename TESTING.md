@@ -335,6 +335,8 @@ Now everything was working except on the index page where the footer now was in 
 
 ## Lighthouse Testing
 
+*
+
 ---  
 
 ## I Manually Tested The Following Features  
@@ -397,8 +399,12 @@ Now everything was working except on the index page where the footer now was in 
     - Recieving confirmation email
     - Order being created in database
 
+---
 
 ## Testing Responsiveness  
+
+To make sure that the site is responsive:
+ - I manually tested it on all available devices in DevTools
 
 ---  
 

@@ -197,26 +197,40 @@ a:hover {
 	object-fit: cover;
 }
 
-.image-button {
-	min-width: 160px;
+/*code credit on how to center a button over image: https://www.w3schools.com/howto/howto_css_button_on_image.asp*/
+
+.index-image{
+	position: relative;
+  	width: 100%;
+}
+
+.index-image img{
+	width: 100%;
+  	height: auto;
+}
+
+.index-image .image-button {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 	transition: all .5s ease;
-	color: #555;
+	min-width: 160px;
+    color: #555;
 	border: 1px solid black;
-	font-family: 'Open Sans', sans-serif;
-	text-transform: uppercase;
-	text-align: center;
+    background-color: #fff;
 	line-height: 1;
-	font-size: 17px;
-	background-color: #fff;
-	padding: 10px;
-	outline: none;
-	border-radius: 4px;
-	margin-top: 100px;
+    font-size: 16px;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .image-button:hover {
 	color: #fff !important;
 	background-color: #637867 !important;
+	border: none;
 }
 
 
@@ -522,7 +536,7 @@ a.btn.btn-blog:hover {
 		left: 0;
 		z-index: 1030;
 	}
-
+	
     h1{
         font-size: 48px;
     }
@@ -531,17 +545,6 @@ a.btn.btn-blog:hover {
 	}
 	.shopping-bag {
 		margin-left: 4rem;
-	}
-}
-
-/* code credit from: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/*/
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-	.image-button{
-		margin-top: 0;
 	}
 }
 

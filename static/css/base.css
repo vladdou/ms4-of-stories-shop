@@ -18,9 +18,9 @@ body {
 
 h1 {
 	letter-spacing: 2px;
-    font-weight: 300;
-    font-size: 42px;
-    text-transform: uppercase;  
+	font-weight: 300;
+	font-size: 42px;
+	text-transform: uppercase;
 }
 
 h2 {
@@ -102,7 +102,9 @@ a:hover {
 	z-index: -1;
 }
 
+
 /* from Bulma */
+
 .icon {
 	align-items: center;
 	display: inline-flex;
@@ -197,34 +199,35 @@ a:hover {
 	object-fit: cover;
 }
 
+
 /*code credit on how to center a button over image: https://www.w3schools.com/howto/howto_css_button_on_image.asp*/
 
-.index-image{
+.index-image {
 	position: relative;
-  	width: 100%;
+	width: 100%;
 }
 
-.index-image img{
+.index-image img {
 	width: 100%;
-  	height: auto;
+	height: auto;
 }
 
 .index-image .image-button {
 	position: absolute;
-    top: 50%;
-    left: 50%;
+	top: 50%;
+	left: 50%;
 	transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 	transition: all .5s ease;
 	min-width: 100px;
-    color: #555;
+	color: #555;
 	border: 1px solid black;
-    background-color: #fff;
+	background-color: #fff;
 	line-height: 1;
-    font-size: 16px;
-    padding: 12px 24px;
-    cursor: pointer;
-    border-radius: 5px;
+	font-size: 16px;
+	padding: 12px 24px;
+	cursor: pointer;
+	border-radius: 5px;
 }
 
 .image-button:hover {
@@ -450,6 +453,7 @@ a.btn.btn-blog:hover {
 	color: black;
 }
 
+
 /* code credit for block infos, LRNCE website: https://lrnce.com/shop/ceramics/vases/laurel-7/ */
 
 .block-infos {
@@ -487,6 +491,7 @@ a.btn.btn-blog:hover {
 
 /* -------------------------------- footer */
 
+
 /* code credit for getting footer to stick to the bottom of the page: https://css-tricks.com/couple-takes-sticky-footer/*/
 
 .page-footer {
@@ -516,18 +521,20 @@ a.btn.btn-blog:hover {
 
 /* -------------------------------- media queries */
 
-/* extra large devices (large laptops and desktops, 1200px and up) */
 
+/* extra large devices (large laptops and desktops, 1200px and up) */
 /* Slightly larger container on xl screens */
+
 @media (min-width: 1200px) {
 	.container {
 		max-width: 80%;
 	}
 }
 
-/* medium devices (landscape tablets, 992px and up) */
 
+/* medium devices (landscape tablets, 992px and up) */
 /* fixed top navbar only on medium and up */
+
 @media (min-width: 992px) {
 	.fixed-top-desktop-only {
 		position: fixed;
@@ -536,24 +543,24 @@ a.btn.btn-blog:hover {
 		left: 0;
 		z-index: 1030;
 	}
-	
-    h1{
-        font-size: 48px;
-    }
+	h1 {
+		font-size: 48px;
+	}
 	.header-container {
 		padding-top: 100px;
 	}
 	.shopping-bag {
 		margin-left: 4rem;
 	}
-	.index-image .image-button{
+	.index-image .image-button {
 		min-width: 160px;
 	}
 }
 
-/* if the screen size is 991px or less*/
 
+/* if the screen size is 991px or less*/
 /* pad the top a bit when navbar is collapsed on mobile */
+
 @media (max-width: 991px) {
 	.header-container {
 		padding-top: 116px;
@@ -576,17 +583,13 @@ a.btn.btn-blog:hover {
 	.form-inline .search-field:focus {
 		border-bottom: 1px solid #ccc;
 	}
-
-    .shop-now-button{
-        min-width: 200px;
-    }
-
+	.shop-now-button {
+		min-width: 200px;
+	}
 	.nav-link {
 		padding: 0.20rem;
 	}
 	.navbar-toggler {
 		font-size: 1rem;
 	}
-	
 }
-

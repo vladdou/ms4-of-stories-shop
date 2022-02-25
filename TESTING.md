@@ -153,7 +153,7 @@ No errors were found
 
 ---
 
-*15. As a shopper I want to be able to access the shop quick and easy so that I can purchase the products that I'm looking for.*
+*15. As a shopper I want to be able to access the shop quick and easy so that I can purchase the products that I'm interested in.*
 
 - Users can access the shop quickly by clicking the call to action buttons on the home page
 

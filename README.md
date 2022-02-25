@@ -15,9 +15,9 @@ This is a webshop for my own brand Of Stories that sells small collections of ha
 
 - Give users the possibility to purchase unique collections of handmade items for their home
 - Support small businesses 
-- Share stories about the company and the products through the blog
-- Make it easy for users to navigate the site on any device   
-- Be able to create an account for a smooth and easy shopping experience
+- Share stories about the company and the products through the blog 
+- Give users the possibility to create an account for a smooth and easy shopping experience
+- Make it easy for users to navigate the site on any device  
 
 ### User Stories  
 ![user stories](static/README/user_stories/user-stories-ms4.png)
@@ -26,7 +26,7 @@ This is a webshop for my own brand Of Stories that sells small collections of ha
 Since I chose to make this webpage for my own brand I felt a freedom to create it in line with my own preference of design which is minimalistic, clean and with an earthy tone to the coloring. All of these features, in my opinion, corresponds well with my intentions of making this site easy to navigate and to highlight the products. A user entering this page should have a logical as well as an effortless and pleasant way to the products.
 
  #### Colors  
-Since the company is working with products only made of natural materials I wanted to have colors that was representing nature and sustainability. I choose two different shades of green that I thought fit this purpose perfectly, #637867 & #939891 and that is calming for the eye. #F2F1EF was picked from the hero image on the index page and used as a background overlay to tie the pages together. 
+Since the company is working with products only made of natural materials I wanted to have colors that was representing nature and sustainability. I chose two different shades of green that I thought fit this purpose perfectly, #637867 & #939891 and that is calming for the eye. #F2F1EF was picked from the hero image on the index page and used as a background overlay to tie the pages together. 
 
 ![color palette](static/README/images/color-palette.png)
 
@@ -75,7 +75,7 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
         - BLOG
         - ADMIN 
             - ADD PRODUCTS 
-            - ADD BLOGPOST
+            - ADD BLOG POST
         - MY PROFILE
         - LOG OUT  
         - CONTACT 
@@ -84,13 +84,13 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
     The footer is displayed on all pages and features links to the companys social media accounts.
 
 - **Home**  
-    The landing page features a background image with a call to action button with the text *shop now* that leads to the product page so that users have an easy and quick way of finding the products.
+    The landing page features a background image with a call to action button with the text *shop now* that leads to the products so that users have an easy and quick way of finding them.
 
 - **Sign Up**
     This page contains a sign up form to register an account.
 
 - **Log In**
-    This page contains a form for the user to login to their account.
+    This page contains a form for the user to log in to their account.
 
 - **Password reset page**
     Option for users to reset their password by email.
@@ -105,7 +105,7 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
     This page is only available for the superuser. It contains a form to add new products to the database. 
 
 - **Edit product**
-    This page is only available for the superuser. It contains a form to edit Category, Sku, Name, Description, Price, Rating and Image. The form is prefilled with the information earlier provided.The 'update product' button then add the products new information to the database. The 'cancel' button leads back to the all products page.
+    This page is only available for the superuser. It contains a form to edit Category, Sku, Name, Description, Price, Rating and Image. The form is prefilled with the information earlier provided. The 'update product' button then add the products new information to the database. The 'cancel' button leads back to the all products page.
 
 - **Delete product**
     This page is only available for the superuser and is triggered when the Delete button on the product page is clicked. It contains a confirmation text with the name of the actual product being deleted along with two buttons, one that cancels the action and one that deletes the product from the database.
@@ -140,8 +140,8 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
 ### Features Left To Implement  
 
  - Pagination would be a good feauture to have when adding more products to the site
- - To be able to add images to blog posts to make them more vivid and intresting
- - Upload a wider range of pictures for each item
+ - To be able to add images to blog posts to make them more vivid and interesting
+ - To be able to upload a wider range of pictures for each product
  - A newsletter so that users could sign up and get the latest updates and offers 
 
 ## Database   
@@ -156,7 +156,7 @@ Diagram of my database:
 
 ### Languages  
 
-- HTML5, CSS3, Javascript, Python and with Python framework Django
+- HTML5, CSS3, Javascript, Python and with Python framework [Django](https://www.djangoproject.com/)
 
 ### Frameworks and Libraries  
 
@@ -164,10 +164,10 @@ Diagram of my database:
 - [FontAwesome](https://fontawesome.com) 
 - [Google Fonts](https://fonts.google.com) 
 
-### All other tools  
+### Other tools  
 
 - [PostgresSQL](https://www.postgresql.org/) - used for relational database storage
-- [Heroku](https://dashboard.heroku.com/) - used to deploy the live site
+- [Heroku](https://dashboard.heroku.com/) - used to deploy and host my application
 - [GitPod](https://www.gitpod.io) - used for their IDE while building the website
 - [GitHub](https://github.com) - used to store repository
 - [Balsamiq](https://balsamiq.com) - used to create wireframes
@@ -176,7 +176,7 @@ Diagram of my database:
 - [Tinypng](https://tinypng.com) - used to compress images
 - [Freeformatter](https://www.freeformatter.com/) - used to beautify code
 - [Coolors](https://coolors.co) - used to create color palette
-- [dbdiagarm](https://dbdiagram.io/home) - used to create database diagram 
+- []() - used to create database diagram 
 - [Techsini](https://techsini.com/multi-mockup/index.php) - used to create the mockup image in the beginning of this README file.
 - [AWS S3 Bucket](https://aws.amazon.com/) - used for storing static and media files
 - [W3C Markup Validation Service](https://validator.w3.org) - used to validating the HTML code
@@ -270,7 +270,7 @@ https://djangocentral.com/building-a-blog-application-with-django/) and [Codemy.
 
 How to build a Django contact form is from [OrdinaryCoders](https://ordinarycoders.com/blog/article/build-a-django-contact-form-with-email-backend)
 
-How to get a footer to stick to the bottom of the page is from [css-tricks](https://css-tricks.com/couple-takes-sticky-footer/)
+How to get a footer to stick to the bottom of the page is from [CSS-tricks](https://css-tricks.com/couple-takes-sticky-footer/)
 
 ### Content  
  Blog post text about mud cloth fabrics is from [here](https://en.wikipedia.org/wiki/B%C3%B2g%C3%B2lanfini)
@@ -280,7 +280,7 @@ How to get a footer to stick to the bottom of the page is from [css-tricks](http
 
 ### Media
 
-  All images is taken by me
+  All images taken by me
 
   Logo is made by the illustrator [Oelwein](https://oelwein-studio.com/) for the brand Of Stories
 

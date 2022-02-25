@@ -406,6 +406,7 @@ Now everything was working except on the index page where the footer now was in 
 
 To make sure that the site is responsive:
  - I manually tested it on all available devices in DevTools
+ - I've used the site [Responsinator](http://www.responsinator.com/?url=of-stories.herokuapp.com%2F)
 
 ---  
 

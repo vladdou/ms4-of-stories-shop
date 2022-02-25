@@ -10,7 +10,9 @@ No errors were found
 ### CSS Testing 
 
 [W3C CSS Markup Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate CSS.  
-No errors were found 
+* Deprecated media feature min-device-width.
+* Deprecated media feature max-device-width. 
+(need to fix)
 
 
 ### Python
@@ -20,11 +22,10 @@ No errors were found
 
 ### JS Testing  
 [JShint](https://jshint.com/) was used to validate JavaScript.  
-
-
+When running the js files through JShint the linter throws a warning regarding an undefined variable. This is because the $ sign is jQuery syntax and the linter is checking for ES6 syntax which jQuery operators aren't a part of.
 
 <br>
-<img src="https://github.com/flisanp/ms3-baby-food-recipes/blob/main/static/images/README/bugs/jshint.png" width="300" height= auto />
+<img src="static/README/bugs/jshint.png" width="300" height= auto />
 <br>  
 
 ---  
@@ -202,7 +203,7 @@ No errors were found
 
 - The user will receive a confirmation email after the checkout is completed
 
-![user_story_20](static/README/user_stories/user-stories-20)  
+![user_story_20](static/README/user_stories/user-stories-20.png)  
 
 ---
 
@@ -210,7 +211,7 @@ No errors were found
 
 - When the superuser is logged in it's possible to access a form for adding products through the navbar
 
-![user_story_21](static/README/user_stories/user-stories-21)  
+![user_story_21](static/README/user_stories/user-stories-21.png)  
 
 ---
 
@@ -218,7 +219,7 @@ No errors were found
 
 - When the superuser is logged in it's possible to edit a product via a link on the products page 
 
-![user_story_22](static/README/user_stories/user-stories-22) 
+![user_story_22](static/README/user_stories/user-stories-22.png) 
 ![user_story_22](static/README/user_stories/edit-product.png)  
 
 ---
@@ -227,7 +228,7 @@ No errors were found
 
 - When the superuser is logged in it's possible to delete a product via a link on the products page
 
-![user_story_23](static/README/user_stories/user-stories-23)
+![user_story_23](static/README/user_stories/user-stories-23.png)
 ![user_story_23](static/README/user_stories/delete-product.png)  
 
 ---
@@ -236,7 +237,7 @@ No errors were found
 
 - When the superuser is logged in it's possible to access a form for adding blog posts through the navbar
 
-![user_story_24](static/README/user_stories/user-stories-24)  
+![user_story_24](static/README/user_stories/user-stories-24.png)  
 
 ---
 
@@ -244,7 +245,7 @@ No errors were found
 
 - When the superuser is logged in it's possible to edit and delete a blog post via a link on the blog post page
 
-![user_story_25](static/README/user_stories/user-stories-25)
+![user_story_25](static/README/user_stories/user-stories-25.png)
 ![user_story_25](static/README/user_stories/edit-blog.png)
 ![user_story_23](static/README/user_stories/delete-blog.png)  
   
@@ -267,13 +268,13 @@ and with the indentation error order_form had no value on POST
 
 ---
 
-- When I wanted to reach the add_blog page I got: Page not found , 404 error. 
+- I've got a Page not found , 404 error on the add_blog page 
 
 <br>
 <img src="static/README/bugs/page_not_found.png" width="auto" height="300"/>
 <br>
 
-I moved the url above the other ones and it worked perfecly. It was most likely that Django tried the patterns in order and found a "match" before the intended.
+I moved the url above the other ones and then it worked perfecly. It was most likely that Django tried the patterns in order and found a "match" before the intended.
 
 ---
 
@@ -327,6 +328,8 @@ Now everything was working except on the index page where the footer now was in 
 
 
 ### Responsiveness issues  
+
+*
 
 ---
 

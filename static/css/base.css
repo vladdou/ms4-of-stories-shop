@@ -565,9 +565,6 @@ a.btn.btn-blog:hover {
 	.header-container {
 		padding-top: 116px;
 	}
-	body {
-		height: calc(100vh - 116px);
-	}
 	.form-inline .search-field {
 		display: inline-block;
 		width: 80%;

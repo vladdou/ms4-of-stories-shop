@@ -19,7 +19,7 @@ body {
 h1 {
 	letter-spacing: 2px;
 	font-weight: 300;
-	font-size: 42px;
+	font-size: 36px;
 	text-transform: uppercase;
 }
 
@@ -168,7 +168,7 @@ a:hover {
 }
 
 .shop-now-button {
-	min-width: 260px;
+	min-width: 180px;
 	transition: all .5s ease;
 	color: #555;
 	border: 2px solid black;
@@ -531,6 +531,18 @@ a.btn.btn-blog:hover {
 	}
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	h1 {
+		font-size: 48px;
+	}
+	.index-image .image-button {
+		min-width: 160px;
+	}
+	.shop-now-button{
+		min-width: 260px;
+	}
+}
 
 /* medium devices (landscape tablets, 992px and up) */
 /* fixed top navbar only on medium and up */
@@ -543,17 +555,11 @@ a.btn.btn-blog:hover {
 		left: 0;
 		z-index: 1030;
 	}
-	h1 {
-		font-size: 48px;
-	}
 	.header-container {
 		padding-top: 100px;
 	}
 	.shopping-bag {
 		margin-left: 4rem;
-	}
-	.index-image .image-button {
-		min-width: 160px;
 	}
 }
 
@@ -579,9 +585,6 @@ a.btn.btn-blog:hover {
 	}
 	.form-inline .search-field:focus {
 		border-bottom: 1px solid #ccc;
-	}
-	.shop-now-button {
-		min-width: 200px;
 	}
 	.nav-link {
 		padding: 0.20rem;

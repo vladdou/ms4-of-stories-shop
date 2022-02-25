@@ -10,10 +10,7 @@ No errors were found
 ### CSS Testing 
 
 [W3C CSS Markup Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate CSS.  
-* Deprecated media feature min-device-width.
-* Deprecated media feature max-device-width. 
-(need to fix)
-
+No errors were found  
 
 ### Python
 [PEP8 online](http://pep8online.com/) was used to validate Python.  

@@ -326,7 +326,11 @@ Now everything was working except on the index page where the footer now was in 
 
 ### Responsiveness issues  
 
-*
+- When I test the responsiveness on Nest Hub I get issues with the search bar. The button appears underneath the input field instead of next to it. When I remove flex-flow: row wrap; in DevTools they're aligned but since this is the only device where I've seen this problem and deadline is coming up I've decided to keep it like that for the time beeing and fix it in the future.
+
+<br>
+<img src="static/README/bugs/nest-hub.png" width="auto" height="300"/>
+<br>
 
 ---
 

@@ -216,7 +216,7 @@ a:hover {
 	transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 	transition: all .5s ease;
-	min-width: 160px;
+	min-width: 100px;
     color: #555;
 	border: 1px solid black;
     background-color: #fff;
@@ -545,6 +545,9 @@ a.btn.btn-blog:hover {
 	}
 	.shopping-bag {
 		margin-left: 4rem;
+	}
+	.index-image .image-button{
+		min-width: 160px;
 	}
 }
 

@@ -321,12 +321,18 @@ around the block content in base.html and adding this styling to css:
   flex-shrink: 0;
 }`
 
-Now everything was working except on the index page where the footer now was in the middle of the page below the hero image. It turned out I had added h-100 to my index-hero container class and it was setting the element to be 100% of device height and not allowing the div to stretch for full content. I already had the height set to 100vh in base.css on index-hero so it was extra anyway. When I removed this everything worked.
+Now everything was working except on the index page where the footer now was in the middle of the page below the hero image. 
+
+<br>
+<img src="static/README/bugs/footer-bug-mid-page.png" width="auto" height="100"/>
+<br>
+
+It turned out I had added h-100 to my index-hero container class and it was setting the element to be 100% of device height and not allowing the div to stretch for full content. I already had the height set to 100vh in base.css on index-hero so it was extra anyway. When I removed this everything worked.
 
 
 ### Responsiveness issues  
 
-- When I test the responsiveness on Nest Hub I get issues with the search bar. The button appears underneath the input field instead of next to it. When I remove flex-flow: row wrap; in DevTools they're aligned but since this is the only device where I've seen this problem and deadline is coming up I've decided to keep it like that for the time beeing and fix it in the future.
+- When I test the responsiveness on Nest Hub and Ipad Mini in landscape mode I get issues with the search bar. The button appears underneath the input field instead of next to it. When I remove flex-flow: row wrap; in DevTools they're aligned but since this only appears on screensizes between 992px - 1120px and deadline is coming up I've decided to keep it like that for the time beeing and fix it in the future.
 
 <br>
 <img src="static/README/bugs/nest-hub.png" width="auto" height="300"/>

@@ -1,8 +1,9 @@
 # Of Stories Webshop  
+
+[A live version of the page can be viewed here](https://of-stories.herokuapp.com/) 
  
 ![mockup image](static/README/images/responsive-image.png)  
 
-[A live version of the page can be viewed here](https://of-stories.herokuapp.com/) 
 
 
 This is a webshop for my own brand Of Stories that sells small collections of handmade goods for your home. The sites purpose is to be an independent store for interior design goods. A shop where people can find products from near and afar but always from small producers and with a variety of handicraft.
@@ -84,7 +85,7 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
     The footer is displayed on all pages and features links to the companys social media accounts.
 
 - **Home**  
-    The landing page features a background image with a call to action button with the text *shop now* that leads to the products so that users have an easy and quick way of finding them.
+    The landing page features a background image with a call to action button with the text *shop now* that leads to the products so that users have an easy and quick way of finding them. Below that are three images with buttons linking to three different categories of products
 
 - **Sign Up**
     This page contains a sign up form to register an account.
@@ -141,7 +142,7 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
 
  - Pagination would be a good feauture to have when adding more products to the site
  - To be able to add images to blog posts to make them more vivid and interesting
- - To be able to upload a wider range of pictures for each product
+ - To be able to upload a wider range of images for each product
  - A newsletter so that users could sign up and get the latest updates and offers 
  - A nicer way of displaying pop up messages, like [Sweet Alert](https://sweetalert.js.org)
  - To be able to comment on blog posts
@@ -149,7 +150,9 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
  - Login with social media accounts
  - Be able to take other payment options
 
-## Database design
+---
+
+## Database Design
 
 ![database](static/README/images/database-image.png)  
 
@@ -159,10 +162,11 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
 
 ### Languages  
 
-- HTML5, CSS3, Javascript, Python and with Python framework [Django](https://www.djangoproject.com/)
+- HTML5, CSS3, Javascript and Python3
 
 ### Frameworks and Libraries  
 
+- [Django](https://www.djangoproject.com/)
 - [Bootstrap](https://getbootstrap.com/) 
 - [FontAwesome](https://fontawesome.com) 
 - [Google Fonts](https://fonts.google.com) 

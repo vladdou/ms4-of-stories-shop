@@ -424,14 +424,14 @@ a.btn.btn-blog:hover {
 }
 
 .product-name {
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
 .product-price {
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 400;
 	letter-spacing: 2px;
 }

@@ -186,10 +186,10 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
 - [Techsini](https://techsini.com/multi-mockup/index.php) - used to create the mockup image in the beginning of this README file.
 - [AWS S3 Bucket](https://aws.amazon.com/) - used for storing static and media files
 - [Stripe](https://stripe.com/) - used as payment platform to validate and accept credit card payments securely
-- [W3C Markup Validation Service](https://validator.w3.org) - used to validating the HTML code
-- [W3C CSS Markup Validation Service](https://jigsaw.w3.org/css-validator/) - used to validating the CSS code
-- [JSHint](https://jshint.com) - used to validating javascript code
-- [PEP8 online](http://pep8online.com) - used to validating python code
+- [W3C Markup Validation Service](https://validator.w3.org) - used to validate the HTML code
+- [W3C CSS Markup Validation Service](https://jigsaw.w3.org/css-validator/) - used to validate the CSS code
+- [JSHint](https://jshint.com) - used to validate javascript code
+- [PEP8 online](http://pep8online.com) - used to validate python code
 
 ---
 
@@ -205,9 +205,9 @@ Testing information can be found [here](TESTING.md)
 
 This project was created on Github using the following steps: 
 1. Navigate to [GitHub](https://github.com/) and sign in
-2. On the left hand side above the list of your repositories click on the green button that says "New", this will create a new repository
+2. On the left hand side above the list of your repositories click the green button that says "New", this will create a new repository
 3. From the drop down menu that says "Repository templates" I choose the Code Institute Template  
-4. Enter a name for the project and then click on the green button that says "Create Repository"
+4. Enter a name for the project and then click the green button that says "Create Repository"
 
 Before creating the Heroku app you need to add the following files in Gitpod:
 
@@ -222,13 +222,13 @@ This project was deployed through Heroku using the following steps:
 1. Navigate to [Heroku](https://dashboard.heroku.com/login) and sign in
 2. On the top right corner there is a button that says "New". Click this button and choose the option "Create New App"
 3. Choose a name for the App and what region that are closest to your location, click "Create App"
-4. Click on the tab saying "Deploy" and select GitHub, Connect to GitHub
+4. Click the tab saying "Deploy" and select GitHub, Connect to GitHub
 5. Enter the name of your repository on GitHub and click search
 6. When the repository is found, click the "Connect" button
-7. Click on the tab saying "Resources" and go to "Add-ons"
+7. Click the tab saying "Resources" and go to "Add-ons"
 8. Search for Heroku Postgres and choose it in the appearing list
 9. Select the plan named "Hobby Dev - Free" and click Submit order form
-7. Click on the tab saying "Settings" and then click on the button saying "Reveal config vars"
+7. Click the tab saying "Settings" and then click the button saying "Reveal config vars"
 
 8. Add these variables:
 
@@ -245,7 +245,7 @@ This project was deployed through Heroku using the following steps:
 
 The value of these keys depends on the users personal setup and will not be added here due to security reasons
 
-9. Click on the "Deploy" tab and scroll down to the section "Automatic Deployment"
+9. Click the "Deploy" tab and scroll down to the section "Automatic Deployment"
 10. Choose the branch you want to deploy from and then click "Enable Automatic Deploys"
 
 ### How To Run The Code Locally  
@@ -263,7 +263,7 @@ To fork the project follow these steps:
 
 1. Log in to Github
 2. Navigate to the [repository](https://github.com/flisanp/ms4-of-stories-shop)
-3. Locate the "Fork" button on the top right corner of the page
+3. Click the "Fork" button on the top right corner of the page
 4. A duplicate of the original repository is now in your Github account
 
 ---
@@ -279,6 +279,8 @@ https://djangocentral.com/building-a-blog-application-with-django/) and [Codemy.
 - How to build a Django contact form is from [OrdinaryCoders](https://ordinarycoders.com/blog/article/build-a-django-contact-form-with-email-backend)
 
 - How to get a footer to stick to the bottom of the page is from [CSS-tricks](https://css-tricks.com/couple-takes-sticky-footer/)
+
+- How to create a database image is from [Medium](https://medium.com/@yathomasi1/1-using-django-extensions-to-visualize-the-database-diagram-in-django-application-c5fa7e710e16)
 
 ### Content  
 - Blog post text about mud cloth fabrics is from [here](https://en.wikipedia.org/wiki/B%C3%B2g%C3%B2lanfini)
@@ -297,5 +299,6 @@ https://djangocentral.com/building-a-blog-application-with-django/) and [Codemy.
 
 ## Acknowledgements
 
-
+- My Code Institute mentor Reuben Ferrante for valuable feedback
+- Tutors at Code Institute for great guidance
 

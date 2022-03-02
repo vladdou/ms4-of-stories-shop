@@ -181,9 +181,9 @@ Diagram of my database:
 - [Tinypng](https://tinypng.com) - used to compress images
 - [Freeformatter](https://www.freeformatter.com/) - used to beautify code
 - [Coolors](https://coolors.co) - used to create color palette
-- []() - used to create database diagram 
 - [Techsini](https://techsini.com/multi-mockup/index.php) - used to create the mockup image in the beginning of this README file.
 - [AWS S3 Bucket](https://aws.amazon.com/) - used for storing static and media files
+- [Stripe](https://stripe.com/) - used as payment platform to validate and accept credit card payments securely
 - [W3C Markup Validation Service](https://validator.w3.org) - used to validating the HTML code
 - [W3C CSS Markup Validation Service](https://jigsaw.w3.org/css-validator/) - used to validating the CSS code
 - [JSHint](https://jshint.com) - used to validating javascript code
@@ -269,25 +269,26 @@ To fork the project follow these steps:
 ## Credits
 
 ### Code
+- The base of this project was made following Code Institutes Boutique Ado mini project and customized to fit this sites purpose.
 
-How to build a blog application with Django is from [Djangocentral](
+- How to build a blog application with Django is from [Djangocentral](
 https://djangocentral.com/building-a-blog-application-with-django/) and [Codemy.com](https://www.youtube.com/watch?v=B40bteAMM_M)
 
-How to build a Django contact form is from [OrdinaryCoders](https://ordinarycoders.com/blog/article/build-a-django-contact-form-with-email-backend)
+- How to build a Django contact form is from [OrdinaryCoders](https://ordinarycoders.com/blog/article/build-a-django-contact-form-with-email-backend)
 
-How to get a footer to stick to the bottom of the page is from [CSS-tricks](https://css-tricks.com/couple-takes-sticky-footer/)
+- How to get a footer to stick to the bottom of the page is from [CSS-tricks](https://css-tricks.com/couple-takes-sticky-footer/)
 
 ### Content  
- Blog post text about mud cloth fabrics is from [here](https://en.wikipedia.org/wiki/B%C3%B2g%C3%B2lanfini)
+- Blog post text about mud cloth fabrics is from [here](https://en.wikipedia.org/wiki/B%C3%B2g%C3%B2lanfini)
 
- Blog post text about baskets is from [here](https://www.hadithikenya.com/fineweave-sisal-baskets)
+- Blog post text about baskets is from [here](https://www.hadithikenya.com/fineweave-sisal-baskets)
 
 
 ### Media
 
-  All images taken by me
+- All images taken by me
 
-  Logo is made by the illustrator [Oelwein](https://oelwein-studio.com/) for the brand Of Stories
+- Logo is made by the illustrator [Oelwein](https://oelwein-studio.com/) for the brand Of Stories
 
 
 ---

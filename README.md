@@ -149,11 +149,9 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
  - Login with social media accounts
  - Be able to take other payment options
 
-## Database   
+## Database design
 
-Diagram of my database:
-
-![database](static/images/README/database.png)  
+![database](static/README/images/database-image.png)  
 
 ---  
 

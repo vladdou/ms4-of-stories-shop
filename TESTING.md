@@ -340,12 +340,6 @@ It turned out I had added h-100 to my index-hero container class and it was sett
 
 ---
 
-## Lighthouse Testing
-
-*
-
----  
-
 ## I Manually Tested The Following Features  
 
 - Navbar
@@ -362,14 +356,14 @@ It turned out I had added h-100 to my index-hero container class and it was sett
     - Sort selector sorts products correctly
     - Links to products detail page
     - Edit button opens prefilled form and saves changes to database
-    - Delete button opens confirmation page - Yes button deletes product from database
+    - Delete button opens confirmation page - No button takes you back to the product, Yes button deletes product from database
     - Breadcrumb links
     - Quantity function
     - Adds to bag
 - Blog
     - Links to full blog post
-    - Edit blogpost opens prefilled form and saves changes to database
-    - Delete button opens confirmation page - Yes button deletes blogpost from database
+    - Edit blog post opens prefilled form and saves changes to database
+    - Delete button opens confirmation page - No button takes you back to the blog post, Yes button deletes blog post from database
 - Sign Up
     - Input fields displays the text to the user and hides the password
     - Error message "A user with that username already exists" displays if you try to type in an already existing username

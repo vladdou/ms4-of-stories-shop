@@ -143,6 +143,11 @@ Wireframes can be viewed [here](static/README/wireframes/MS4-wireframes.pdf)
  - To be able to add images to blog posts to make them more vivid and interesting
  - To be able to upload a wider range of pictures for each product
  - A newsletter so that users could sign up and get the latest updates and offers 
+ - A nicer way of displaying pop up messages, like [Sweet Alert](https://sweetalert.js.org)
+ - To be able to comment on blog posts
+ - A FAQ page
+ - Login with social media accounts
+ - Be able to take other payment options
 
 ## Database   
 

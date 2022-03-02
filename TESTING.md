@@ -356,14 +356,14 @@ It turned out I had added h-100 to my index-hero container class and it was sett
     - Sort selector sorts products correctly
     - Links to products detail page
     - Edit button opens prefilled form and saves changes to database
-    - Delete button opens confirmation page - No button takes you back to the product, Yes button deletes product from database
+    - Delete button opens confirmation page - *No* button takes you back to the product, *Yes* button deletes product from database
     - Breadcrumb links
     - Quantity function
     - Adds to bag
 - Blog
     - Links to full blog post
     - Edit blog post opens prefilled form and saves changes to database
-    - Delete button opens confirmation page - No button takes you back to the blog post, Yes button deletes blog post from database
+    - Delete button opens confirmation page - *No* button takes you back to the blog post, *Yes* button deletes blog post from database
 - Sign Up
     - Input fields displays the text to the user and hides the password
     - Error message "A user with that username already exists" displays if you try to type in an already existing username
@@ -405,7 +405,7 @@ It turned out I had added h-100 to my index-hero container class and it was sett
 ## Testing Responsiveness  
 
 To make sure that the site is responsive:
- - I manually tested it on all available devices in DevTools
+ - I manually tested it on all available devices in Google Chrome DevTools
  - I've used the site [Responsinator](http://www.responsinator.com/?url=of-stories.herokuapp.com%2F)
 
 ---  

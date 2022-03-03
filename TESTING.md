@@ -19,11 +19,7 @@ No errors were found
 
 ### JS Testing  
 [JShint](https://jshint.com/) was used to validate JavaScript.  
-When running the js files through JShint the linter throws a warning regarding an undefined variable. This is because the $ sign is jQuery syntax and the linter is checking for ES6 syntax which jQuery operators aren't a part of.
-
-<br>
-<img src="static/README/bugs/jshint.png" width="300" height= auto />
-<br>  
+When running the js files through JShint the linter throws a warning regarding two undefined variables - $ and Stripe. The $ sign is jQuery syntax and the linter is checking for ES6 syntax which jQuery operators aren't a part of. The Stripe variable is because it's being sent through Stripe API:s.
 
 ---  
 
@@ -250,7 +246,7 @@ When running the js files through JShint the linter throws a warning regarding a
   
 ## During Development I Fixed The Following Bugs
 
- - When I clicked on the checkout button I got an error saying "local variable 'order_form' referenced before assignment" and it said the issue was in checkout views. 
+ - When I clicked the checkout button I got an error saying "local variable 'order_form' referenced before assignment" and it said the issue was in checkout views. 
 
 <br>
 <img src="static/README/bugs/local_variable_bug.png" width="auto" height="300"/>
@@ -289,8 +285,8 @@ I put a DEVELOPMENT variable in my Heroku config vars to get a better idea of wh
 
 To fix this problem I needed to run migrations on the postgres database:
 
-1. logged in to the heroku cli in my workspace terminal: heroku login -i
-2. then, I migrate with: heroku run python3 manage.py migrate
+1. log in to the heroku cli in the workspace terminal: heroku login -i
+2. migrate with: heroku run python3 manage.py migrate
 
 ---
 
@@ -327,7 +323,7 @@ Now everything was working except on the index page where the footer now was in 
 <img src="static/README/bugs/footer-bug-mid-page.png" width="auto" height="100"/>
 <br>
 
-It turned out I had added h-100 to my index-hero container class and it was setting the element to be 100% of device height and not allowing the div to stretch for full content. I already had the height set to 100vh in base.css on index-hero so it was extra anyway. When I removed this everything worked.
+It turned out I had added h-100 to my index-hero container class and it was setting the element to be 100% of device height and not allowing the div to stretch for full content. When I removed this everything worked.
 
 
 ### Responsiveness issues  

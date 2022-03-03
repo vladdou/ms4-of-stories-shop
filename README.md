@@ -294,11 +294,10 @@ https://djangocentral.com/building-a-blog-application-with-django/) and [Codemy.
 
 - Logo is made by the illustrator [Oelwein](https://oelwein-studio.com/) for the brand Of Stories
 
-
 ---
 
 ## Acknowledgements
 
 - My Code Institute mentor Reuben Ferrante for valuable feedback
-- Tutors at Code Institute for great guidance
+- Tutors at Code Institute for great guidance 
 

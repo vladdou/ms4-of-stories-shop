@@ -1,0 +1,467 @@
+repo_name: vladdou/ms4-of-stories-shop
+report_id: d63eb1bf7f5b8b14bfc6b22a0fe0dc0a
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-26T05:36:21+00:00'
+requested_by: flisanp
+provider: github
+branch: main
+detected_tools_count: 25
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-04 15:17:29.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-12 11:27:02.000000000 Z
+- name: Django
+  description: A high-level Python Web framework that encourages rapid development
+    and clean
+  package_url: https://pypi.org/project/Django
+  version: '3.2'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19832/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-20 21:30:16.000000000 Z
+  vulnerabilities:
+  - name: SQL Injection in Django
+    cve_id: CVE-2022-28346
+    cve_url: https://github.com/advisories/GHSA-2gwj-7jmv-h26r
+    detected_date: Apr 27
+    severity: critical
+    first_patched: 3.2.13
+  - name: Django bypasses validation when using one form field to upload multiple
+      files
+    cve_id: CVE-2023-31047
+    cve_url: https://github.com/advisories/GHSA-r3xc-prgr-mg9p
+    detected_date: May 10
+    severity: critical
+    first_patched: 3.2.19
+  - name: SQL Injection in Django
+    cve_id: CVE-2021-35042
+    cve_url: https://github.com/advisories/GHSA-xpfp-f569-q3p2
+    detected_date: Sep 23
+    severity: critical
+    first_patched: 3.2.5
+  - name: SQL Injection in Django
+    cve_id: CVE-2022-28347
+    cve_url: https://github.com/advisories/GHSA-w24h-v9qh-8gxj
+    detected_date: Apr 23
+    severity: critical
+    first_patched: 3.2.13
+  - name: Denial-of-service in Django
+    cve_id: CVE-2021-45115
+    cve_url: https://github.com/advisories/GHSA-53qw-q765-4fww
+    detected_date: Jan 13
+    severity: high
+    first_patched: 3.2.11
+  - name: Potential bypass of an upstream access control based on URL paths in Django
+    cve_id: CVE-2021-44420
+    cve_url: https://github.com/advisories/GHSA-v6rh-hp5x-86rv
+    detected_date: Dec 14
+    severity: high
+    first_patched: 3.2.10
+  - name: Path Traversal in Django
+    cve_id: CVE-2021-31542
+    cve_url: https://github.com/advisories/GHSA-rxjp-mfm9-w4wr
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.2.1
+  - name: Resource exhaustion in Django
+    cve_id: CVE-2023-24580
+    cve_url: https://github.com/advisories/GHSA-2hrw-hx67-34x6
+    detected_date: Feb 16
+    severity: high
+    first_patched: 3.2.18
+  - name: Information disclosure in Django
+    cve_id: CVE-2021-45116
+    cve_url: https://github.com/advisories/GHSA-8c5j-9r9f-c6w8
+    detected_date: Jan 13
+    severity: high
+    first_patched: 3.2.11
+  - name: Django has regular expression denial of service vulnerability in EmailValidator/URLValidator
+    cve_id: CVE-2023-36053
+    cve_url: https://github.com/advisories/GHSA-jh3w-4vvf-mjgr
+    detected_date: Jul 6
+    severity: high
+    first_patched: 3.2.20
+  - name: 'Django vulnerable to Reflected File Download attack '
+    cve_id: CVE-2022-36359
+    cve_url: https://github.com/advisories/GHSA-8x94-hmjh-97hq
+    detected_date: Aug 12
+    severity: high
+    first_patched: 3.2.15
+  - name: Django potential denial of service vulnerability in UsernameField on Windows
+    cve_id: CVE-2023-46695
+    cve_url: https://github.com/advisories/GHSA-qmf9-6jqf-j8fq
+    detected_date: Apr 4
+    severity: high
+    first_patched: 3.2.23
+  - name: Infinite Loop in Django
+    cve_id: CVE-2022-23833
+    cve_url: https://github.com/advisories/GHSA-6cw3-g6wv-c2xv
+    detected_date: Apr 4
+    severity: high
+    first_patched: 3.2.12
+  - name: Directory-traversal in Django
+    cve_id: CVE-2021-45452
+    cve_url: https://github.com/advisories/GHSA-jrh2-hc4r-7jwx
+    detected_date: Jan 13
+    severity: moderate
+    first_patched: 3.2.11
+  - name: Header injection possible in Django
+    cve_id: CVE-2021-32052
+    cve_url: https://github.com/advisories/GHSA-qm57-vhq3-3fwf
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.2.2
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  version: 20.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-20 11:26:15.000000000 Z
+  vulnerabilities:
+  - name: Request smuggling leading to endpoint restriction bypass in Gunicorn
+    cve_id: CVE-2024-1135
+    cve_url: https://github.com/advisories/GHSA-w3h3-4rj7-4ph4
+    detected_date: Apr 16
+    severity: high
+    first_patched: 22.0.0
+- name: sqlparse
+  description: Non-validating SQL parser
+  package_url: https://pypi.org/project/sqlparse
+  version: 0.4.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20039/default_a7a70921d2d3189665c78015850dc968f41705a1.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-04 15:17:29.000000000 Z
+  vulnerabilities:
+  - name: sqlparse parsing heavily nested list leads to Denial of Service
+    cve_id: CVE-2024-4340
+    cve_url: https://github.com/advisories/GHSA-2m57-hf25-phgg
+    detected_date: Apr 16
+    severity: high
+    first_patched: 0.5.0
+  - name: 'Duplicate Advisory: sqlparse parsing heavily nested list leads to Denial
+      of Service'
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-62qf-jcq8-8gxw
+    detected_date: May 2
+    severity: high
+    first_patched: 0.5.0
+  - name: sqlparse contains a regular expression that is vulnerable to Regular Expression
+      Denial of Service
+    cve_id: CVE-2023-30608
+    cve_url: https://github.com/advisories/GHSA-rrm6-wvj7-cwh2
+    detected_date: Apr 22
+    severity: moderate
+    first_patched: 0.4.4
+- name: oauthlib
+  description: A generic
+  package_url: https://pypi.org/project/oauthlib
+  version: 3.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20048/default_d9e0956c82c17d568b62f3b0d5e2080c1e501e59.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-04 15:17:29.000000000 Z
+  vulnerabilities:
+  - name: OAuthLib vulnerable to DoS when attacker provides malicious IPV6 URI
+    cve_id: CVE-2022-36087
+    cve_url: https://github.com/advisories/GHSA-3pgj-pg6c-r5p7
+    detected_date: Sep 17
+    severity: moderate
+    first_patched: 3.2.2
+- name: asgiref
+  description: ASGI specs, helper code, and adapters
+  package_url: https://pypi.org/project/asgiref
+  version: 3.4.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20739/default_88a4948f616ae7ccb7210803d2bd72b72851b6e9.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-04 15:17:29.000000000 Z
+- name: boto3
+  description: The AWS SDK for Python
+  package_url: https://pypi.org/project/boto3
+  version: 1.20.39
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-20 21:30:16.000000000 Z
+- name: botocore
+  description: Low-level, data-driven core of boto 3
+  package_url: https://pypi.org/project/botocore
+  version: 1.23.39
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19884/default_b8be3f20d4af87021ae3618d5c50b72c985ea31f.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-20 21:30:16.000000000 Z
+- name: dj-database-url
+  description: Use Database URLs in your Django Application
+  package_url: https://pypi.org/project/dj-database-url
+  version: 0.5.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20428/default_bd9b8499e6f547a7732694c637f33437a8c7ba95.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-20 11:02:28.000000000 Z
+- name: django-allauth
+  description: Integrated set of Django applications addressing authentication
+  package_url: https://pypi.org/project/django-allauth
+  version: 0.41.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20541/default_6bb78422f08f1851c01cfa4b478c846cfd09d1ba.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-20 21:30:16.000000000 Z
+- name: django-countries
+  description: Provides a country field for Django models
+  package_url: https://pypi.org/project/django-countries
+  version: 7.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20621/default_5ed7f7d7f8da598b07680ab161e0b863509933d0.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-20 21:30:16.000000000 Z
+- name: django-crispy-forms
+  description: Best way to have Django DRY forms
+  package_url: https://pypi.org/project/django-crispy-forms
+  version: 1.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20185/default_2a50f212cd997c31353c0fb4401375a8310a3efe.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-20 21:30:16.000000000 Z
+- name: django-storages
+  description: Support for many storage backends in Django
+  package_url: https://pypi.org/project/django-storages
+  version: 1.12.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-20 21:30:16.000000000 Z
+- name: jmespath
+  description: JSON Matching Expressions
+  package_url: https://pypi.org/project/jmespath
+  version: 0.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19993/default_1ae269f6aa26d7008f18ed620309f6ae89bbfa12.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-20 21:30:16.000000000 Z
+- name: psycopg2-binary
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2-binary
+  version: 2.9.3
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-20 11:02:28.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  version: '2021.3'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-04 15:17:29.000000000 Z
+- name: requests-oauthlib
+  description: OAuthlib authentication support for Requests
+  package_url: https://pypi.org/project/requests-oauthlib
+  version: 1.3.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19926/default_bb29140b72c0fb9789e567bba0ef0ffadeaef5d4.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-04 15:17:29.000000000 Z
+- name: s3transfer
+  description: An Amazon S3 Transfer Manager
+  package_url: https://pypi.org/project/s3transfer
+  version: 0.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20042/default_15ea2ed8281eccea374610791971ca44800f16ec.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-20 21:30:16.000000000 Z
+- name: stripe
+  description: Python bindings for the Stripe API
+  package_url: https://pypi.org/project/stripe
+  version: 2.64.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20448/default_3594ac2294a6aa0f41792d27e3f019e66d1684f7.png
+  detection_source_url: https://github.com/vladdou/ms4-of-stories-shop/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: flisanp
+  last_updated_on: 2022-01-16 21:41:39.000000000 Z
